@@ -5,7 +5,7 @@ Highlight Hunter is an app for Mac and PC that helps you quickly find the highli
 
 ## Getting Started on Mac
 
-1. Open `/OdessaMacGUIApp/OdessaMacGUIApp.xcodeproj` in Xcode 4 or 5
+1. Open `OdessaMacGUIApp/OdessaMacGUIApp.xcodeproj` in Xcode 4 or 5
 2. Select either the `Highlight Hunter Free` or `Highlight Hunter Premium` target
 3. Build and run the app
 
