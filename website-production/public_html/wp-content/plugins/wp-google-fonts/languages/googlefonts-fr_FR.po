@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Google Fonts\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Frédéric Serva <fred.serva@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Text in echo
+#: google-fonts.php:1112
+msgid "* CSS WARNING"
+msgstr "* MISE EN GARDE CSS"
+
+#. Text in echo
+#: google-fonts.php:876
+#: google-fonts.php:958
+#: google-fonts.php:999
+#: google-fonts.php:1040
+#: google-fonts.php:1081
+msgid "All (body tags)"
+msgstr "Tous (balises body)"
+
+#. Text in echo
+#: google-fonts.php:883
+#: google-fonts.php:924
+#: google-fonts.php:965
+#: google-fonts.php:1006
+#: google-fonts.php:1047
+#: google-fonts.php:1088
+msgid "Blockquotes"
+msgstr "Citations (blockquotes)"
+
+#. Text in echo
+#: google-fonts.php:1093
+msgid "Custom CSS:*"
+msgstr "CSS personnalisé : *"
+
+#. Text in echo
+#: google-fonts.php:874
+#: google-fonts.php:1079
+msgid "Elements you want to assign this font to:*"
+msgstr "Choix des éléments à associer à cette police de caractère : *"
+
+#. Text in echo
+#: google-fonts.php:862
+msgid "Font 1 Options"
+msgstr "Police de caractères 1 : Options"
+
+#. Text in echo
+#: google-fonts.php:903
+msgid "Font 2 Options"
+msgstr "Police de caractères 2 : Options"
+
+#. Text in echo
+#: google-fonts.php:944
+msgid "Font 3 Options"
+msgstr "Police de caractères 3 : Options"
+
+#. Text in echo
+#: google-fonts.php:985
+msgid "Font 4 Options"
+msgstr "Police de caractères 4 : Options"
+
+#. Text in echo
+#: google-fonts.php:1026
+msgid "Font 5 Options"
+msgstr "Police de caractères 5 : Options"
+
+#. Text in echo
+#: google-fonts.php:1067
+msgid "Font 6 Options"
+msgstr "Police de caractères 6 : Options"
+
+#. Text in echo
+#: google-fonts.php:558
+msgid "Google Font Control Panel"
+msgstr "Panneau de contrôle des polices Google"
+
+#. Text in echo
+#: google-fonts.php:1107
+msgid "Google Font Directory"
+msgstr "Répertoire des polices Google"
+
+#. Text in echo
+#: google-fonts.php:560
+msgid "Google Fonts plugin page"
+msgstr "page de l'extension Google Fonts"
+
+#. Text in echo
+#: google-fonts.php:877
+#: google-fonts.php:918
+#: google-fonts.php:959
+#: google-fonts.php:1000
+#: google-fonts.php:1041
+#: google-fonts.php:1082
+msgid "Headline 1 (h1 tags)"
+msgstr "Titre 1 (balises h1)"
+
+#. Text in echo
+#: google-fonts.php:878
+#: google-fonts.php:919
+#: google-fonts.php:960
+#: google-fonts.php:1001
+#: google-fonts.php:1042
+#: google-fonts.php:1083
+msgid "Headline 2 (h2 tags)"
+msgstr "Titre 2 (balises h2)"
+
+#. Text in echo
+#: google-fonts.php:879
+#: google-fonts.php:920
+#: google-fonts.php:961
+#: google-fonts.php:1002
+#: google-fonts.php:1043
+#: google-fonts.php:1084
+msgid "Headline 3 (h3 tags)"
+msgstr "Titre 3 (balises h3)"
+
+#. Text in echo
+#: google-fonts.php:880
+#: google-fonts.php:921
+#: google-fonts.php:962
+#: google-fonts.php:1003
+#: google-fonts.php:1044
+#: google-fonts.php:1085
+msgid "Headline 4 (h4 tags)"
+msgstr "Titre 4 (balises h4)"
+
+#. Text in echo
+#: google-fonts.php:881
+#: google-fonts.php:922
+#: google-fonts.php:963
+#: google-fonts.php:1004
+#: google-fonts.php:1045
+#: google-fonts.php:1086
+msgid "Headline 5 (h5 tags)"
+msgstr "Titre 5 (balises h5)"
+
+#. Text in echo
+#: google-fonts.php:882
+#: google-fonts.php:923
+#: google-fonts.php:964
+#: google-fonts.php:1005
+#: google-fonts.php:1046
+#: google-fonts.php:1087
+msgid "Headline 6 (h6 tags)"
+msgstr "Titre 6 (balises h6)"
+
+#. Text in echo
+#: google-fonts.php:885
+#: google-fonts.php:926
+#: google-fonts.php:967
+#: google-fonts.php:1008
+#: google-fonts.php:1049
+#: google-fonts.php:1090
+msgid "Lists (li tags)"
+msgstr "Listes (balises li)"
+
+#. Text in echo
+#: google-fonts.php:1113
+msgid "Most likely the theme you are using has defined very specific elements in its stylesheet and these may override the generic tags specified above. If you don&rsquo;t see any changes after checking the style boxes above, you will need to enter custom css into the CSS box. An example of CSS that would be more specific would be:"
+msgstr "Il est fort probable que le thème que vous avez installé utilise une feuille de style dans laquelle des éléments très spécifiques ont été définis. Ces définitions peuvent prendre le pas sur les balises génériques définies ci-dessus. Si vous ne constatez aucun changement dans le comportement des éléments définis ci-dessus après avoir sauvegardé vos réglages, vous devrez inspecter la feuille de style du thème et redéfinir certaines balises grâce aux champs CSS personnalisé.<br />Par exemple :"
+
+#. Text in echo
+#: google-fonts.php:868
+msgid "None (Turn off Font 1)"
+msgstr "Aucune (Ne pas utiliser la police 1)"
+
+#. Text in echo
+#: google-fonts.php:909
+msgid "None (Turn off Font 2)"
+msgstr "Aucune (Ne pas utiliser la police 2)"
+
+#. Text in echo
+#: google-fonts.php:950
+msgid "None (Turn off Font 3)"
+msgstr "Aucune (Ne pas utiliser la police 3)"
+
+#. Text in echo
+#: google-fonts.php:991
+msgid "None (Turn off Font 4)"
+msgstr "Aucune (Ne pas utiliser la police 4)"
+
+#. Text in echo
+#: google-fonts.php:1033
+msgid "None (Turn off Font 5)"
+msgstr "Aucune (Ne pas utiliser la police 5)"
+
+#. Text in echo
+#: google-fonts.php:1073
+msgid "None (Turn off Font 6)"
+msgstr "Aucune (Ne pas utiliser la police 6)"
+
+#. Text in echo
+#: google-fonts.php:884
+#: google-fonts.php:925
+#: google-fonts.php:966
+#: google-fonts.php:1007
+#: google-fonts.php:1048
+#: google-fonts.php:1089
+msgid "Paragraphs (p tags)"
+msgstr "Paragraphes (balises p)"
+
+#. Text in echo
+#: google-fonts.php:1098
+msgid "Save"
+msgstr "Sauvegarder"
+
+#. Text in echo
+#: google-fonts.php:1069
+msgid "Select Font:"
+msgstr "Choix de la police de caractères :"
+
+#. Text in echo
+#: google-fonts.php:560
+msgid "Thanks for using Google Fonts, and I hope you like this plugin."
+msgstr "Merci d'utiliser Google Fonts. J'espère que vous apprécierez cette extension."
+
+#. Text in echo
+#: google-fonts.php:1104
+msgid "The most common error occurs when a font is specified as \"off\" but has boxes checked beneath it. Make sure that there are no boxes checked beneath a font that you want to be off."
+msgstr "L'erreur la plus répandue survient lorsqu'une police de caractères est indiquée comme n'étant pas utilisée mais qu'un des boutons liés à cette police est coché. Vérifiez bien qu'aucun bouton n'est coché lorsque vous indiquez que vous n'utilisez pas une police."
+
+#. Text in echo
+#: google-fonts.php:560
+msgid "This control panel gives you the ability to control how your Google Fonts fonts are displayed. For more information about this plugin, please visit the"
+msgstr "Ce panneau de contrôle vous offre la capacité de choisir à quelles balises CSS les polices de caractères Google Fonts seront associées. Pour plus d'informations concernant cette extension, merci de visiter la"
+
+#. Text in echo
+#: google-fonts.php:1106
+msgid "This plugin uses open source fonts that are hosted on Google&rsquo;s servers. For more information about this service, you can visit the"
+msgstr "Cette extension utilise des polices Open Source hébergées sur les serveurs de Google. Pour plus d'informations concernant ce service, vous pouvez visiter le"
+
+#. Text in echo
+#: google-fonts.php:1117
+msgid "This would define all paragraphs found within a &lt;div id=&quot;container&quot;&gt;&lt;/div&gt; element. Stylesheets (CSS) can be sensitive and tricky sometimes. If you are new to CSS the <a href=\"http://www.w3schools.com/css/\" title=\"w3schools tutorials\">w3schools tutorials</a> are a great place to start."
+msgstr "Dans cet exemple, tous les paragraphes utilisés entre ces balises HTML &lt;div id=&quot;container&quot;&gt;&lt;/div&gt; utiliseront la police 'Reenie Beanie'. <br />Les feuilles de style (CSS) sont parfois sensibles et retorses. Si vous débutez en CSS (et que vous lisez l'anglais) vous pouvez consulter les tutoriaux de la W3Schools. Vous les trouverez ici : <a href=\"http://www.w3schools.com/css/\" title=\"w3schools tutorials\">w3schools tutorials</a>."
+
+#. Text in echo
+#: google-fonts.php:1103
+msgid "Troubleshooting"
+msgstr "Diagnostics d'incidents"
+

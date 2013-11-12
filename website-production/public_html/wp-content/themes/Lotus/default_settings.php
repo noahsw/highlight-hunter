@@ -1,0 +1,50 @@
+<?php
+
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1050, 0, '".SHORTNAME."_footer_font_color', '#cccccc', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1051, 0, '".SHORTNAME."_footer_link_color', '#ffffff', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1040, 0, '".SHORTNAME."_bg', '#212c35', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1041, 0, '".SHORTNAME."_menu_color', '#ffffff', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1042, 0, '".SHORTNAME."_title_color', '#ffffff', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1043, 0, '".SHORTNAME."_font_color', '#666666', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1044, 0, '".SHORTNAME."_link_color', '#21749b', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1045, 0, '".SHORTNAME."_hover_link_color', '#3587ad', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1053, 0, '".SHORTNAME."_slider_sort', 'DESC', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1054, 0, '".SHORTNAME."_slider_items', '2', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1055, 0, '".SHORTNAME."_slider_timer', '5', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1056, 0, '".SHORTNAME."_slider_auto_play', 'true', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1057, 0, '".SHORTNAME."_slider_animation_time', '500', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1058, 0, '".SHORTNAME."_homepage_hide_slider', 'true', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1059, 0, '".SHORTNAME."_homepage_hide_tagline', 'true', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1060, 0, '".SHORTNAME."_homepage_tagline_title', 'Lotus WP Theme for Business. Purchase now only $35', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1061, 0, '".SHORTNAME."_tagline_button_title', 'Buy Now', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1062, 0, '".SHORTNAME."_tagline_button_href', '', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1063, 0, '".SHORTNAME."_homepage', '', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1065, 0, '".SHORTNAME."_portfolio_style', '3', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1066, 0, '".SHORTNAME."_portfolio_sort', 'DESC', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1067, 0, '".SHORTNAME."_portfolio_items', '12', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1068, 0, '".SHORTNAME."_gallery_sort', 'DESC', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1069, 0, '".SHORTNAME."_gallery_items', '12', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1070, 0, '".SHORTNAME."_sidebar0', '', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1071, 0, '".SHORTNAME."_blog_title', 'Our latest Updates', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1074, 0, '".SHORTNAME."_contact_display_map', 'true', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1075, 0, '".SHORTNAME."_contact_lat', '13.756726', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1076, 0, '".SHORTNAME."_contact_long', '100.468597', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1077, 0, '".SHORTNAME."_contact_map_zoom', '15', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1052, 0, '".SHORTNAME."_footer_hover_link_color', '#ffffff', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1049, 0, '".SHORTNAME."_button_border_color', '#07418d', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1048, 0, '".SHORTNAME."_button_font_color', '#ffffff', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1047, 0, '".SHORTNAME."_button_bg_color', '#07418d', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1046, 0, '".SHORTNAME."_h1_font_color', '#555555', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1039, 0, '".SHORTNAME."_bg_pattern', 'right_strip', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1038, 0, '".SHORTNAME."_h6_size', '22', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1037, 0, '".SHORTNAME."_h5_size', '24', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1036, 0, '".SHORTNAME."_h4_size', '28', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1035, 0, '".SHORTNAME."_h3_size', '30', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1034, 0, '".SHORTNAME."_h2_size', '34', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1033, 0, '".SHORTNAME."_h1_size', '38', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1032, 0, '".SHORTNAME."_custom_css', '', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1028, 0, '".SHORTNAME."_ga_id', '', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1029, 0, '".SHORTNAME."_gm_key', '', 'yes');");
+$wpdb->query("INSERT IGNORE INTO `".$wpdb->prefix."options` VALUES (1031, 0, '".SHORTNAME."_contact_email', '', 'yes');");
+
+?>

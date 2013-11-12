@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>support.highlighthunter.com :: Troubleshooting</title>
+    <link>http://support.highlighthunter.com/customer/portal/topics/141236-troubleshooting</link>
+    <description>Troubleshooting articles</description>
+    <item>
+      <title>Scan errors</title>
+      <description>Occasionally you may receive errors while scanning your videos. Here are possible causes:
+  
+You already conv...</description>
+      <pubDate>Fri, 23 Nov 2012 18:42:00 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/307210</link>
+    </item>
+    <item>
+      <title>Activation errors (PC only)</title>
+      <description>It looks like we had trouble starting your trial or activating the app. These types of issues require a little...</description>
+      <pubDate>Fri, 05 Oct 2012 16:51:50 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/307223</link>
+    </item>
+    <item>
+      <title>Sending troubleshooting logs</title>
+      <description>We may come across an issue that we can't figure out on our own. In these rare cases we'll need to take a look...</description>
+      <pubDate>Fri, 05 Oct 2012 16:52:00 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/307216</link>
+    </item>
+    <item>
+      <title>Sending us your footage</title>
+      <description>If Highlight Hunter has trouble finding your highlights, we may ask you to send us your footage so we can take...</description>
+      <pubDate>Fri, 05 Oct 2012 16:22:39 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/382989</link>
+    </item>
+    <item>
+      <title>How to install a video player</title>
+      <description>Highlight Hunter for PC requires QuickTime (recommended) or Windows Media Player to preview your highlights.
+
+...</description>
+      <pubDate>Thu, 11 Oct 2012 19:07:51 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/658912</link>
+    </item>
+    <item>
+      <title>Video playback is slow</title>
+      <description>Occasionally you may notice a 60 frames per second video playing at half speed. This is an issue in Windows Me...</description>
+      <pubDate>Fri, 05 Oct 2012 16:25:03 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/678375</link>
+    </item>
+    <item>
+      <title>Missing codecs (PC only)</title>
+      <description>Sometimes your computer doesn't have the files it needs to play your videos. 99% of the time, this can be fixe...</description>
+      <pubDate>Thu, 11 Oct 2012 18:33:06 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/780756</link>
+    </item>
+  </channel>
+</rss>

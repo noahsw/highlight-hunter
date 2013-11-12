@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>support.highlighthunter.com :: Purchase and Activation (PC only)</title>
+    <link>http://support.highlighthunter.com/customer/portal/topics/141286-purchase-and-activation-pc-only-</link>
+    <description>Purchase and Activation (PC only) articles</description>
+    <item>
+      <title>What is License Activation?</title>
+      <description>Activation is a set of simple and quick steps taken upon installation in order to begin using your application...</description>
+      <pubDate>Wed, 25 Jul 2012 20:59:55 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325266</link>
+    </item>
+    <item>
+      <title>During activation what information is passed to the server?</title>
+      <description>No personal information or information about your computer configuration are transferred. There is a one-way h...</description>
+      <pubDate>Thu, 19 Jan 2012 21:44:30 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325271</link>
+    </item>
+    <item>
+      <title>Can I move the app to another computer?</title>
+      <description>Yes, this can be done easily. It is simply a matter of uninstalling the application on one computer, reinstall...</description>
+      <pubDate>Thu, 19 Jan 2012 21:44:57 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325272</link>
+    </item>
+    <item>
+      <title>What is the password for?</title>
+      <description>The password uniquely identifies your license. You will need the password if you ever need to reactivate your ...</description>
+      <pubDate>Thu, 19 Jan 2012 21:45:32 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325273</link>
+    </item>
+    <item>
+      <title>What is the email address for and is it mandatory?</title>
+      <description>The email address on the trial dialog is required. This is so we can follow up with you (no more than once) to...</description>
+      <pubDate>Thu, 19 Jan 2012 21:46:32 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325284</link>
+    </item>
+    <item>
+      <title>Will changes to my computer cause my app to stop working?</title>
+      <description>There are no changes that will cause a permanent disabling of the software. Major changes (disk reformat being...</description>
+      <pubDate>Thu, 19 Jan 2012 21:48:31 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325286</link>
+    </item>
+    <item>
+      <title>How often will my app connect to the activation server via the Internet?</title>
+      <description>Your app uses the Internet when it is first installed, when it is reactivated (such as after a disk reformat a...</description>
+      <pubDate>Thu, 19 Jan 2012 21:43:11 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325269</link>
+    </item>
+    <item>
+      <title>What if I have forgotten my password and did not provide an email address (or my email address is no longer valid)?</title>
+      <description>During a reactivation the previously provided password is required. If the password has been lost and cannot b...</description>
+      <pubDate>Thu, 19 Jan 2012 21:47:43 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325285</link>
+    </item>
+    <item>
+      <title>I have entered my code and password correctly with a new password to do a re-activation, why is the application not being re-activated?</title>
+      <description>Verify that you have an Internet Connection (by browsing using Microsoft’s IE). Your new password must be a ne...</description>
+      <pubDate>Thu, 19 Jan 2012 21:42:01 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325268</link>
+    </item>
+    <item>
+      <title>Does the internet connection speed affect activation? Will dial-up access work?</title>
+      <description>The amount of data transferred during activation is very small. Any stable internet connection will work. Slow...</description>
+      <pubDate>Thu, 19 Jan 2012 21:43:45 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325270</link>
+    </item>
+    <item>
+      <title>What happens if you or softWORKZ suspends service or goes out of business?</title>
+      <description>Both companies have been in business for several years, and are healthy and stable and will be around for many...</description>
+      <pubDate>Thu, 19 Jan 2012 21:49:46 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325287</link>
+    </item>
+    <item>
+      <title>Why is an activation system required at this time?</title>
+      <description>Software companies around the world have come to realize that activation-type copy-protection systems provide ...</description>
+      <pubDate>Thu, 19 Jan 2012 21:50:25 +0000</pubDate>
+      <link>http://support.highlighthunter.com/customer/portal/articles/325288</link>
+    </item>
+  </channel>
+</rss>

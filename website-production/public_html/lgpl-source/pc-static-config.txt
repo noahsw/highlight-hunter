@@ -1,0 +1,10 @@
+ffmpeg version N-43804-g780bf75 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Aug 21 2012 21:11:37 with gcc 4.7.1 (GCC)
+  configuration: --enable-gpl --enable-version3 --disable-pthreads --enable-runt
+ime-cpudetect --enable-avisynth --enable-bzlib --enable-frei0r --enable-libass -
+-enable-libcelt --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-l
+ibfreetype --enable-libgsm --enable-libmp3lame --enable-libnut --enable-libopenj
+peg --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheo
+ra --enable-libutvideo --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-li
+bvorbis --enable-libvpx --enable-libx264 --enable-libxavs --enable-libxvid --ena
+ble-zlib

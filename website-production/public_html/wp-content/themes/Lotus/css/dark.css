@@ -1,0 +1,362 @@
+pre, code, tt {font:13px 'andale mono', 'lucida console', monospace;line-height:1.5;padding: 20px;background: #222}
+
+#footer 
+{
+	background: #000;
+}
+
+#header_wrapper
+{
+	background: #000;
+}
+
+#top_bar
+{
+	background: #000;
+}
+
+#menu_wrapper .nav ul li a, #menu_wrapper .menu-main-menu-container .nav li a
+{
+	color: #ccc;
+	text-shadow: 0 1px 1px #000;
+}
+
+#menu_wrapper .nav ul li ul, #menu_wrapper .menu-main-menu-container .nav li ul
+{
+	background: #000;
+	border-top: 1px solid #000;
+ 	border-bottom: 1px solid #000;
+ 	-moz-box-shadow: 0 1px 5px #000;
+ 	-webkit-box-shadow: 0 1px 5px #000;
+ 	box-shadow: 0px 1px 5px #000;
+}
+
+#menu_wrapper .menu-main-menu-container .nav li ul li a, #menu_wrapper .menu-main-menu-container .nav li.current-menu-item ul li a, #menu_wrapper .menu-main-menu-container .nav li ul li.current-menu-item a
+{
+	color: #ccc;
+}
+
+#menu_wrapper .menu-main-menu-container .nav li ul li a.hover
+{
+	background: transparent url('../images/menu_hover_dark.png') top repeat-x;
+	color: #fff;
+}
+
+#content_wrapper
+{
+	background: #000;
+	-moz-box-shadow: 0 1px 3px #000;
+ 	-webkit-box-shadow: 0 1px 3px #000;
+ 	box-shadow: 0px 1px 3px #000;
+ 	color: #ccc;
+ 	text-shadow: 0 1px 1px #000;
+}
+
+h1, h2, h3, h4, h5, .sidebar_content h1, .sidebar_content h2, .sidebar_content h3, .sidebar_content h4, .sidebar_content h5, .sidebar_content h6
+{
+	color: #fff;
+}
+
+#content_wrapper .inner .inner_wrapper .sidebar_wrapper
+{
+	border-left: 1px solid #444;
+}
+
+#anything_slider .arrow.forward
+{
+	background: transparent url('../images/right_slide_nav_dark.png') no-repeat;
+}
+
+#anything_slider .arrow.back
+{
+	background: transparent url('../images/left_slide_nav_dark.png') no-repeat;
+}
+
+.nivo-prevNav {
+	background: transparent url('../images/left_slide_nav_dark.png') no-repeat;
+}
+.nivo-nextNav {
+	background: transparent url('../images/right_slide_nav_dark.png') no-repeat;
+}
+
+.roundabout-moveable-item {
+	background: #000;
+	border: 1px solid #444;
+	-webkit-box-shadow: 1px 1px 5px #000;
+	-moz-box-shadow: 1px 1px 5px #000;
+	box-shadow: 1px 1px 5px #000;
+}
+
+img.frame
+{
+	border: 1px solid #444;
+}
+
+.frame_left
+{
+	border: 1px solid #444;
+}
+
+.frame_left .caption, .frame_right .caption, .frame_center .caption
+{
+	color: #ccc;
+}
+
+.frame_right
+{
+	border: 1px solid #444;
+}
+
+.frame_center
+{
+	border: 1px solid #444;
+}
+
+#content_wrapper .sidebar .content .posts.blog li img, #content_wrapper .posts.blog li img
+{
+	border: 1px solid #444;
+}
+
+input[type=text], input[type=password], select
+{
+	border: 1px solid #444;
+}
+
+input[type=text].blur
+{
+	color: #666;
+}
+
+textarea
+{
+	color: #ccc;
+	border: 1px solid #444;
+}
+
+input[type=text]:hover, input[type=password]:hover, textarea:hover
+{
+	border: 1px solid #999;
+	-moz-box-shadow: 0 1px 3px #000;
+ 	-webkit-box-shadow: 0 1px 3px #000;
+ 	box-shadow: 0px 1px 3px #000;
+}
+
+.pricing_box
+{
+	border: 1px solid #444;
+}
+
+.pricing_box .header
+{
+	color: #fff;
+	text-shadow: 0 1px 1px #000;
+	border-bottom: 1px solid #444;
+	background: #333 url('../images/caption_bg_dark.png') bottom repeat-x;
+}
+
+.pricing_box.large
+{
+	background: transparent;
+	-moz-box-shadow: 0 1px 10px #000;
+ 	-webkit-box-shadow: 0 1px 10px #000;
+ 	box-shadow: 0px 1px 10px #000;
+}
+
+#searchform label
+{
+	color: #fff;
+}
+
+.page_caption
+{
+	background: transparent url('../images/caption_bg_dark.png') center repeat-x;
+}
+
+.post_header .post_detail, .recent_post_detail
+{
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #444;
+}
+
+.post_header a
+{
+	color: #fff;
+}
+
+.post_header h3 a
+{
+	color: #fff;
+}
+
+.post_header a:hover
+{
+	color: #fff;
+}
+
+.post_img img
+{
+	border: 1px solid #444;
+}
+
+.post_img_date
+{
+	background: #000;
+	color: #fff;
+	text-shadow: 0 0 0 #000;
+}
+
+#respond
+{
+	border-bottom: 1px solid #444;
+}
+
+#about_the_author
+{
+	border-bottom: 1px solid #444;
+}
+
+.related_posts
+{
+	border-bottom: 1px solid #444;
+}
+
+#about_the_author .thumb img
+{
+	border: 1px solid #444;
+}
+
+.comment .left img.avatar
+{
+	border: 1px solid #444;
+	background: #000;
+}
+
+.portfolio1_hover, .portfolio2_hover, .portfolio3_hover, .portfolio4_hover
+{
+	background: #000
+}
+
+#content_wrapper table
+{
+	border: 1px solid #444;
+	-moz-box-shadow: 0 1px 3px #000;
+ 	-webkit-box-shadow: 0 1px 3px #000;
+ 	box-shadow: 0px 1px 3px #000;
+}
+
+#content_wrapper table tr
+{
+	background: #000;
+}
+
+#content_wrapper table tr td, #content_wrapper table tr th
+{
+	border-bottom: 1px solid #444;
+}
+
+#content_wrapper table tr th
+{
+	font-weight: bold;
+	background: #444 url('../images/caption_bg_dark.png') bottom repeat-x;
+	text-align: left;
+	text-shadow: 0 1px 1px #000;
+	color: #fff;
+}
+
+.pagination a {
+ 	background: #222;
+	border: 1px solid #444;
+	color: #ccc;
+	text-shadow: 0 1px 1px #000;
+}
+
+.pagination a:hover {
+	-moz-box-shadow: 0 1px 3px #000;
+ 	-webkit-box-shadow: 0 1px 3px #000;
+ 	box-shadow: 0px 1px 3px #000;
+ 	border: 1px solid #444;
+	background: #444 url('../images/caption_bg_dark.png') bottom repeat-x;
+}
+
+.pagination a:active, .pagination a.active {
+	color: #fff;
+	-moz-box-shadow: 0 1px 3px #000;
+ 	-webkit-box-shadow: 0 1px 3px #000;
+ 	box-shadow: 0px 1px 3px #000;
+ 	border: 1px solid #444;
+	background: #444 url('../images/caption_bg_dark.png') bottom repeat-x;
+}
+
+.accordion
+{
+ 	border: 1px solid #444;
+ 	-moz-box-shadow: 0 1px 3px #000;
+ 	-webkit-box-shadow: 0 1px 3px #000;
+ 	box-shadow: 0px 1px 3px #000;
+}
+
+.ui-accordion .ui-accordion-header
+{
+	background: #333 url('../images/caption_bg_dark.png') center repeat-x;
+}
+
+.ui-accordion .ui-accordion-header a
+{
+	color: #fff;
+}
+
+.accordion div
+{
+	border-top: 1px solid #444;	
+}
+
+.ui-widget-header
+{
+	border-bottom: 1px solid #444;
+}
+
+.tabs .ui-state-default a
+{
+	color: #ccc;
+}
+
+.tabs .ui-state-active, .tabs .ui-state-default
+{
+	background: #000;
+	text-shadow: 0 1px 1px #000;
+	border: 1px solid #444;
+}
+
+.tabs .ui-tabs-panel
+{
+	border: 1px solid #444;
+	-moz-box-shadow: 0 1px 3px #000;
+ 	-webkit-box-shadow: 0 1px 3px #000;
+ 	box-shadow: 0px 1px 3px #000;
+	background: #000 url('../images/caption_bg_dark.png') center repeat-x;
+}
+
+.tabs .ui-state-active a
+{
+	color: #fff;
+}
+
+hr
+{
+	border-top: 1px solid #444;
+}
+
+.line_shadow
+{
+	height: 1px;
+}
+
+#content_wrapper .sidebar .content .sidebar_widget li ul.flickr li img, #footer .sidebar_widget li ul.flickr li img
+{
+	border: 1px solid #444;
+}
+
+#footer .posts.blog li img
+{
+	border: 1px solid #444;
+}

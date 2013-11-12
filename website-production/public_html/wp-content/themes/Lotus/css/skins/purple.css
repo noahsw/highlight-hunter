@@ -1,0 +1,25 @@
+a
+{
+	color: #8803a9;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #487f02;
+}
+
+#menu_wrapper .nav ul li a.hover, #menu_wrapper .nav ul li a:hover, #menu_wrapper .menu-main-menu-container .nav li a.hover, #menu_wrapper .menu-main-menu-container .nav li a:hover
+{
+	color: #8803a9;
+}
+
+#menu_wrapper .menu-main-menu-container .nav li.current-menu-item a
+{
+	color: #8803a9;
+}
+
+input[type=submit], input[type=button], a.button, a.button:hover, a.button:active
+{
+	background: transparent url('../../images/skins/purple_button_bg.png') no-repeat;
+}

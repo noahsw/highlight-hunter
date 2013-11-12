@@ -1,0 +1,22 @@
+//
+//  EndTickViewDelegate.h
+//  OdessaMacGUIApp
+//
+//  Created by Noah Spitzer-Williams on 9/4/12.
+//  Copyright (c) 2012 Authentically Digital LLC. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@protocol EndTickViewDelegate <NSObject>
+
+- (void)endTickDragStarted;
+- (void)endTickDragged;
+- (void)endTickDragEnded;
+
+- (void)endZoomOut;
+
+- (void)setHighlightEndTimeForCoordinate:(NSPoint)coordinate;
+
+
+@end

@@ -1,0 +1,136 @@
+body #header_wrapper
+{
+	background: #000000 url('/wp-content/themes/Lotus/images/header_bg.png') no-repeat top center;
+}
+
+body #header_pattern
+{
+	background: transparent url('/wp-content/themes/Lotus/images/skins/metal_pattern.png') repeat;
+}
+
+body.home #header_wrapper
+{
+	background: #000000 url('/wp-content/themes/Lotus/images/header_bg.png') no-repeat top center;
+}
+
+body.home #header_pattern
+{
+	background: transparent url('/wp-content/themes/Lotus/images/skins/metal_pattern.png') repeat;
+}
+
+#menu_wrapper .nav ul li > a, #menu_wrapper div .nav li > a
+{
+	color: #ffffff;
+}
+
+h1,h2,h3,h4,h5,h6,h1.tagline_header { color:#555555; }
+
+
+h1 { font-size:42px; }
+
+h2 { font-size:38px; }
+
+h3 { font-size:34px; }
+
+h4 { font-size:28px; }
+
+h5 { font-size:24px; }
+
+h6 { font-size:22px; }
+
+body { color:#666666; }
+
+a { color:#21749b; }
+
+a:hover, a:active { color:#3587ad; }
+
+input[type=submit], input[type=button], a.button { 
+	background: #99cc33;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cce699), to(#99cc33));
+	background: -moz-linear-gradient(top,  #cce699,  #99cc33);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cce699', endColorstr='#99cc33');
+}
+input[type=submit]:active, input[type=button]:active, a.button:active
+{
+	background: #99cc33;
+	background: -webkit-gradient(linear, left top, left bottom, from(#99cc33), to(#cce699));
+	background: -moz-linear-gradient(top,  #99cc33,  #cce699);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cce699', endColorstr='#99cc33');
+}
+
+input[type=submit], input[type=button], a.button { 
+	color: #000000;
+}
+input[type=submit]:hover, input[type=button]:hover, a.button:hover
+{
+	color: #000000;
+}
+
+input[type=submit], input[type=button], a.button { 
+	border: 1px solid #99cc33;
+}
+
+#footer, #footer ul { color:#cccccc; }
+
+#footer a { color:#ffffff; }
+
+#footer a:hover, #footer a:active { color:#ffffff; }
+
+
+
+
+#content_wrapper a, a:hover, a:visited, a:link
+
+{
+   color: #99cc33;
+}
+
+
+
+#content_wrapper a:hover
+
+{
+
+   text-decoration: underline;
+
+}
+
+
+
+#slide_content
+
+{
+
+   color: white;
+
+}
+
+
+
+#slide_content a 
+
+{
+
+   color: #99CC33;
+
+}
+
+
+
+#slide_content a:hover 
+
+{
+
+   text-decoration: underline;
+
+}
+
+
+
+#slide_content a:active 
+
+{
+
+   text-decoration: none;
+
+}

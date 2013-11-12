@@ -1,0 +1,248 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: WP Google Fonts in italiano\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Gianni Diurno (aka gidibao) <gidibao[at]gmail[dot]com>\n"
+"Language-Team: Gianni Diurno | gidibao.net & charmingpress.com\n"
+"MIME-Version: 1.0\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+
+#. Text in echo
+#: google-fonts.php:1112
+msgid "* CSS WARNING"
+msgstr "* AVVISO CSS"
+
+#. Text in echo
+#: google-fonts.php:876
+#: google-fonts.php:958
+#: google-fonts.php:999
+#: google-fonts.php:1040
+#: google-fonts.php:1081
+msgid "All (body tags)"
+msgstr "Tutti (tag body)"
+
+#. Text in echo
+#: google-fonts.php:883
+#: google-fonts.php:924
+#: google-fonts.php:965
+#: google-fonts.php:1006
+#: google-fonts.php:1047
+#: google-fonts.php:1088
+msgid "Blockquotes"
+msgstr "Citazioni"
+
+#. Text in echo
+#: google-fonts.php:1093
+msgid "Custom CSS:*"
+msgstr "CSS personalizzato:*"
+
+#. Text in echo
+#: google-fonts.php:874
+#: google-fonts.php:1079
+msgid "Elements you want to assign this font to:*"
+msgstr "Elementi ai quali desideri assegnare questo font:*"
+
+#. Text in echo
+#: google-fonts.php:862
+msgid "Font 1 Options"
+msgstr "Opzioni Font 1"
+
+#. Text in echo
+#: google-fonts.php:903
+msgid "Font 2 Options"
+msgstr "Opzioni Font 2"
+
+#. Text in echo
+#: google-fonts.php:944
+msgid "Font 3 Options"
+msgstr "Opzioni Font 3"
+
+#. Text in echo
+#: google-fonts.php:985
+msgid "Font 4 Options"
+msgstr "Opzioni Font 4"
+
+#. Text in echo
+#: google-fonts.php:1026
+msgid "Font 5 Options"
+msgstr "Opzioni Font 5"
+
+#. Text in echo
+#: google-fonts.php:1067
+msgid "Font 6 Options"
+msgstr "Opzioni Font 6"
+
+#. Text in echo
+#: google-fonts.php:558
+msgid "Google Font Control Panel"
+msgstr "Pannello di controllo Google Font"
+
+#. Text in echo
+#: google-fonts.php:1107
+msgid "Google Font Directory"
+msgstr "Google web fonts"
+
+#. Text in echo
+#: google-fonts.php:560
+msgid "Google Fonts plugin page"
+msgstr "WP Google Fonts"
+
+#. Text in echo
+#: google-fonts.php:877
+#: google-fonts.php:918
+#: google-fonts.php:959
+#: google-fonts.php:1000
+#: google-fonts.php:1041
+#: google-fonts.php:1082
+msgid "Headline 1 (h1 tags)"
+msgstr "Headline 1 (tag h1)"
+
+#. Text in echo
+#: google-fonts.php:878
+#: google-fonts.php:919
+#: google-fonts.php:960
+#: google-fonts.php:1001
+#: google-fonts.php:1042
+#: google-fonts.php:1083
+msgid "Headline 2 (h2 tags)"
+msgstr "Headline 2 (tag h2)"
+
+#. Text in echo
+#: google-fonts.php:879
+#: google-fonts.php:920
+#: google-fonts.php:961
+#: google-fonts.php:1002
+#: google-fonts.php:1043
+#: google-fonts.php:1084
+msgid "Headline 3 (h3 tags)"
+msgstr "Headline 3 (tag h3)"
+
+#. Text in echo
+#: google-fonts.php:880
+#: google-fonts.php:921
+#: google-fonts.php:962
+#: google-fonts.php:1003
+#: google-fonts.php:1044
+#: google-fonts.php:1085
+msgid "Headline 4 (h4 tags)"
+msgstr "Headline 4 (tag h4)"
+
+#. Text in echo
+#: google-fonts.php:881
+#: google-fonts.php:922
+#: google-fonts.php:963
+#: google-fonts.php:1004
+#: google-fonts.php:1045
+#: google-fonts.php:1086
+msgid "Headline 5 (h5 tags)"
+msgstr "Headline 5 (tag h5)"
+
+#. Text in echo
+#: google-fonts.php:882
+#: google-fonts.php:923
+#: google-fonts.php:964
+#: google-fonts.php:1005
+#: google-fonts.php:1046
+#: google-fonts.php:1087
+msgid "Headline 6 (h6 tags)"
+msgstr "Headline 6 (tag h6)"
+
+#. Text in echo
+#: google-fonts.php:885
+#: google-fonts.php:926
+#: google-fonts.php:967
+#: google-fonts.php:1008
+#: google-fonts.php:1049
+#: google-fonts.php:1090
+msgid "Lists (li tags)"
+msgstr "Liste (tag li)"
+
+#. Text in echo
+#: google-fonts.php:1113
+msgid "Most likely the theme you are using has defined very specific elements in its stylesheet and these may override the generic tags specified above. If you don&rsquo;t see any changes after checking the style boxes above, you will need to enter custom css into the CSS box. An example of CSS that would be more specific would be:"
+msgstr "Probabilmente, il tuo tema in uso ha nel proprio foglio di stile degli elementi particolarmente specifici che potrebbero ignorare i tag generici definiti qui sopra. Qualora non riscontrassi alcun cambiamento dopo avere selezionato le caselle di stile qui sopra, sarà necessario che tu inserisca nel box CSS del css personalizzato. Ad esempio, il CSS potrebbe essere del tipo:"
+
+#. Text in echo
+#: google-fonts.php:868
+msgid "None (Turn off Font 1)"
+msgstr "Nessuno (disattiva Font 1)"
+
+#. Text in echo
+#: google-fonts.php:909
+msgid "None (Turn off Font 2)"
+msgstr "Nessuno (disattiva Font 2)"
+
+#. Text in echo
+#: google-fonts.php:950
+msgid "None (Turn off Font 3)"
+msgstr "Nessuno (disattiva Font 3)"
+
+#. Text in echo
+#: google-fonts.php:991
+msgid "None (Turn off Font 4)"
+msgstr "Nessuno (disattiva Font 4)"
+
+#. Text in echo
+#: google-fonts.php:1033
+msgid "None (Turn off Font 5)"
+msgstr "Nessuno (disattiva Font 5)"
+
+#. Text in echo
+#: google-fonts.php:1073
+msgid "None (Turn off Font 6)"
+msgstr "Nessuno (disattiva Font 6)"
+
+#. Text in echo
+#: google-fonts.php:884
+#: google-fonts.php:925
+#: google-fonts.php:966
+#: google-fonts.php:1007
+#: google-fonts.php:1048
+#: google-fonts.php:1089
+msgid "Paragraphs (p tags)"
+msgstr "Paragrafi (tag p)"
+
+#. Text in echo
+#: google-fonts.php:1098
+msgid "Save"
+msgstr "Salva"
+
+#. Text in echo
+#: google-fonts.php:1069
+msgid "Select Font:"
+msgstr "Seleziona carattere:"
+
+#. Text in echo
+#: google-fonts.php:560
+msgid "Thanks for using Google Fonts, and I hope you like this plugin."
+msgstr "Grazie per l'utilizzo di Google Fonts! Spero tu abbia gradito questo plugin."
+
+#. Text in echo
+#: google-fonts.php:1104
+msgid "The most common error occurs when a font is specified as \"off\" but has boxes checked beneath it. Make sure that there are no boxes checked beneath a font that you want to be off."
+msgstr "L'errore più comune si verifica quando un carattere viene \"disattivato\" mentre le sue caselle di selezione sono attive. Assicurati che il font disattivato non abbia delle caselle con il segno di spunta."
+
+#. Text in echo
+#: google-fonts.php:560
+msgid "This control panel gives you the ability to control how your Google Fonts fonts are displayed. For more information about this plugin, please visit the"
+msgstr "Questo pannello di controllo ti offre la possibilità di decidere come impostare la visualizzazione dei tuoi caratteri di Google Fonts. Per maggiori informazioni, visitare la pagina del plugin"
+
+#. Text in echo
+#: google-fonts.php:1106
+msgid "This plugin uses open source fonts that are hosted on Google&rsquo;s servers. For more information about this service, you can visit the"
+msgstr "Questo plugin fa uso dei caratteri open source allocati nei server di Google. Per maggiori informazioni su questo servizio, visitare la pagina"
+
+#. Text in echo
+#: google-fonts.php:1117
+msgid "This would define all paragraphs found within a &lt;div id=&quot;container&quot;&gt;&lt;/div&gt; element. Stylesheets (CSS) can be sensitive and tricky sometimes. If you are new to CSS the <a href=\"http://www.w3schools.com/css/\" title=\"w3schools tutorials\">w3schools tutorials</a> are a great place to start."
+msgstr "Nello specifico, si intendono tutti i paragrafi posizionati dentro un elemento &lt;div id=&quot;container&quot;&gt;&lt;/div&gt;. Il Foglio di Stile (CSS) può essere sensibile e complesso. Non avessi ancora una particolare dimestichezza con il CSS, i <a href=\"http://www.w3schools.com/css/\" title=\"w3schools tutorials\">w3schools tutorials</a> potrebbero essere un buon punto di partenza."
+
+#. Text in echo
+#: google-fonts.php:1103
+msgid "Troubleshooting"
+msgstr "Risoluzione problemi"
+

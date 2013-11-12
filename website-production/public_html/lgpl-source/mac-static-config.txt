@@ -1,0 +1,1 @@
+./configure --enable-static --disable-shared --disable-outdev=sdl --enable-runtime-cpudetect --disable-bzlib --disable-libfreetype --disable-libopenjpeg --enable-zlib --arch=x86_64 --sysroot=/Developer/SDKs/MacOSX10.7.sdk --extra-cflags="-isysroot /Developer/SDKs/MacOSX10.7.sdk"

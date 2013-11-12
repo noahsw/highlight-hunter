@@ -1,0 +1,1 @@
+wget --mirror --page-requisites --convert-links --span-hosts --domains www.highlighthunter.com,static1.highlighthunter.com,static2.highlighthunter.com,static3.highlighthunter.com,static4.highlighthunter.com,support.highlighthunter.com --reject zip,dmg,php www.highlighthunter.com

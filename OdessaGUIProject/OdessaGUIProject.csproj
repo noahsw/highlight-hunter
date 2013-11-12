@@ -1,0 +1,1214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF53A05B-A399-4E29-B478-A0BD0536102C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OdessaGUIProject</RootNamespace>
+    <AssemblyName>HighlightHunter</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>D:\projects\authdig\desktop-client-production\Installer\clickonce\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://static.highlighthunter.com/installers/clickonce/</InstallUrl>
+    <SupportUrl>http://support.highlighthunter.com</SupportUrl>
+    <ErrorReportUrl>http://www.highlighthunter.com/clickonce-error-report.php</ErrorReportUrl>
+    <ProductName>Highlight Hunter</ProductName>
+    <PublisherName>Highlight Hunter</PublisherName>
+    <MinimumRequiredVersion>2.0.0.21</MinimumRequiredVersion>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>2.1.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>OdessaGUIProject.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TEST</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AB4C81687156B01972469D9F48938408C1702597</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Comodo Certificate.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestTimestampUrl>http://timestamp.comodoca.com/authenticode</ManifestTimestampUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facebook">
+      <HintPath>..\packages\Facebook.6.0.16\lib\net35-client\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.2.0.0.2000\lib\net35\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighlightDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighlightDetailsForm.Designer.cs">
+      <DependentUpon>HighlightDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other Helpers\BrowserHelper.cs" />
+    <Compile Include="Other Helpers\FacebookHelper.cs" />
+    <Compile Include="Other Helpers\PostDataHelper.cs" />
+    <Compile Include="Players\QuickTimePlayerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Players\QuickTimePlayerControl.Designer.cs">
+      <DependentUpon>QuickTimePlayerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\BreadcrumbsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\BreadcrumbsControl.Designer.cs">
+      <DependentUpon>BreadcrumbsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\CustomLinkLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\CustomLinkLabel.Designer.cs">
+      <DependentUpon>CustomLinkLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\CustomPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI Controls\CustomRadioButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\CustomRadioButton.Designer.cs">
+      <DependentUpon>CustomRadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\DropHereBigControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\DropHereBigControl.Designer.cs">
+      <DependentUpon>DropHereBigControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\DropHereSmallControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\DropHereSmallControl.Designer.cs">
+      <DependentUpon>DropHereSmallControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Players\GenericPlayerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Players\GenericPlayerControl.Designer.cs">
+      <DependentUpon>GenericPlayerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\HighlightDividerBarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\HighlightDividerBarControl.Designer.cs">
+      <DependentUpon>HighlightDividerBarControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\HighlightThumbnailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\HighlightThumbnailControl.designer.cs">
+      <DependentUpon>HighlightThumbnailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\FacebookLoginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Controls\FacebookLoginDialog.designer.cs">
+      <DependentUpon>FacebookLoginDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\NoHighlightThumbnailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\NoHighlightThumbnailControl.Designer.cs">
+      <DependentUpon>NoHighlightThumbnailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\PictureButtonControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\PictureButtonControl.Designer.cs">
+      <DependentUpon>PictureButtonControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\PictureCheckBoxControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\PictureCheckBoxControl.Designer.cs">
+      <DependentUpon>PictureCheckBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\PublishButtonControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\PublishButtonControl.Designer.cs">
+      <DependentUpon>PublishButtonControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\PublishStatusControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\PublishStatusControl.Designer.cs">
+      <DependentUpon>PublishStatusControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\RoundedCornersPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI Controls\ScanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\ScanControl.Designer.cs">
+      <DependentUpon>ScanControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\SensitivitySliderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\SensitivitySliderControl.Designer.cs">
+      <DependentUpon>SensitivitySliderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\TransButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI Controls\TransLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI Controls\TransLabel.Designer.cs">
+      <DependentUpon>TransLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Players\WindowsMediaPlayerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Players\WindowsMediaPlayerControl.Designer.cs">
+      <DependentUpon>WindowsMediaPlayerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\TutorialBubble.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\TutorialBubble.Designer.cs">
+      <DependentUpon>TutorialBubble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\TutorialEscapeHatch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\TutorialEscapeHatch.Designer.cs">
+      <DependentUpon>TutorialEscapeHatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Helpers\BorderlessWindow.cs" />
+    <Compile Include="UI Helpers\DesignLanguage.cs" />
+    <Compile Include="UI Controls\DimmerMask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Helpers\HighlightEventArgs.cs" />
+    <Compile Include="UI Helpers\HourGlass.cs" />
+    <Compile Include="UI Helpers\InputFileObjectEventArgs.cs" />
+    <Compile Include="UI Helpers\RoundedCorners.cs" />
+    <Compile Include="UI Helpers\TutorialHelper.cs" />
+    <Compile Include="UI Helpers\USER32.cs" />
+    <Compile Include="UI Helpers\WindowMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UnhandledExceptionDlg\UnhandledExceptionDlg.cs" />
+    <Compile Include="UnhandledExceptionDlg\UnhandledExDlgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnhandledExceptionDlg\UnhandledExDlgForm.Designer.cs">
+      <DependentUpon>UnhandledExDlgForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\AbstractExportWorker.cs" />
+    <Compile Include="Workers\AdobePremiereExportWorker.cs" />
+    <Compile Include="Workers\AvidStudioExportWorker.cs" />
+    <Compile Include="Workers\EdlExportWorker.cs" />
+    <Compile Include="Workers\FacebookShareWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Workers\MovieMakerExportWorker.cs" />
+    <Compile Include="Workers\PublishWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI Controls\SelectInputVideosControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\SelectInputVideosControl.designer.cs">
+      <DependentUpon>SelectInputVideosControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsentForm.Designer.cs">
+      <DependentUpon>ConsentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DRM Helpers\ActivationWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DRM Helpers\ActivationWelcome.Designer.cs">
+      <DependentUpon>ActivationWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DRM Helpers\Crypto.cs" />
+    <Compile Include="DRM Helpers\ProtectionWarnings.cs" />
+    <Compile Include="DRM Helpers\RegexUtilities.cs" />
+    <Compile Include="DRM Helpers\TFProxy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DRM Helpers\TFProxy.Designer.cs">
+      <DependentUpon>TFProxy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighlightObject.cs" />
+    <Compile Include="InputFileObject.cs" />
+    <Compile Include="Other Helpers\LoggingHelper.cs" />
+    <Compile Include="MainModel.cs" />
+    <Compile Include="NativeOdessaMethods.cs" />
+    <Compile Include="NativeWin32Methods.cs" />
+    <Compile Include="ObfuscationSettings.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI Controls\ReviewVideosControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\ReviewVideosControl.designer.cs">
+      <DependentUpon>ReviewVideosControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\ScanWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Workers\ScanWorkerHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Workers\SaveWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI Helpers\ThumbnailGenerator.cs" />
+    <Compile Include="UI Helpers\COMTypes.cs" />
+    <Compile Include="DRM Helpers\DNA_INT.cs" />
+    <Compile Include="TutorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TutorialForm.designer.cs">
+      <DependentUpon>TutorialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Helpers\FlashWindow.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DRM Helpers\Protection.cs" />
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other Helpers\SupportHelper.cs" />
+    <Compile Include="DRM Helpers\TFActivation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DRM Helpers\TFActivation.designer.cs">
+      <DependentUpon>TFActivation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DRM Helpers\TFReactivation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DRM Helpers\TFReactivation.designer.cs">
+      <DependentUpon>TFReactivation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Helpers\Windows7ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI Helpers\Windows7Taskbar.cs" />
+    <Compile Include="Other Helpers\UpdateChecker.cs" />
+    <Compile Include="UI Helpers\VideoPlayerSeekHelper.cs" />
+    <Compile Include="UI Controls\RawVideoThumbnailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI Controls\RawVideoThumbnailControl.designer.cs">
+      <DependentUpon>RawVideoThumbnailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\UploadMediaInfoWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <None Include="Resources\tooltip-medium-topright.png" />
+    <None Include="Resources\tutorial-welcome-subhead-text.png" />
+    <None Include="Resources\tutorial-welcome-bold-text.png" />
+    <None Include="Resources\next-button-normal.png" />
+    <None Include="Resources\next-button-hover.png" />
+    <None Include="Resources\next-button-click.png" />
+    <None Include="Resources\button-green-starttour-normal.png" />
+    <None Include="Resources\button-green-starttour-hover.png" />
+    <None Include="Resources\button-green-starttour-click.png" />
+    <None Include="Resources\tutorial-escape-hatch-exit-tour-text.png" />
+    <None Include="Resources\tutorial-escape-hatch-1px-vertical-divider.png" />
+    <None Include="Resources\tutorial-escape-hatch-1px-horizontal-tile.png" />
+    <None Include="Resources\tooltip-small-left.png" />
+    <None Include="Resources\tooltip-small-bottom.png" />
+    <None Include="Resources\tooltip-medium-topleft.png" />
+    <None Include="Resources\tooltip-medium-left.png" />
+    <None Include="Resources\tooltip-medium-bottom.png" />
+    <None Include="Resources\tooltip-large-left.png" />
+    <None Include="Resources\tooltip-large-bottomleft.png" />
+    <None Include="Resources\tooltip-large-bottom.png" />
+    <None Include="Resources\breadcrumbs-text-addvideos-active.png" />
+    <None Include="Resources\breadcrumbs-text-addvideos.png" />
+    <None Include="Resources\editpanel-share-element-red-hover.png" />
+    <None Include="Resources\editpanel-share-element-hover.png" />
+    <None Include="Resources\editpanel-share-element-green-hover.png" />
+    <None Include="Resources\editpanel-share-element-blue-hover.png" />
+    <None Include="Resources\tutorial-likethis-110x110.png" />
+    <None Include="Resources\tutorial-notlikethis-110x110.png" />
+    <None Include="Resources\review-sharestatus-icon-share.png" />
+    <None Include="Resources\icons-16px-startover.png" />
+    <None Include="Resources\editpanel-button-videoselect-right.png" />
+    <None Include="Resources\settings-duration-textbox.png" />
+    <None Include="Resources\review-sharestatus-icon-spinner.gif" />
+    <EmbeddedResource Include="HighlightDetailsForm.resx">
+      <DependentUpon>HighlightDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Players\QuickTimePlayerControl.resx">
+      <DependentUpon>QuickTimePlayerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\BreadcrumbsControl.resx">
+      <DependentUpon>BreadcrumbsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\CustomLinkLabel.resx">
+      <DependentUpon>CustomLinkLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\CustomRadioButton.resx">
+      <DependentUpon>CustomRadioButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\DropHereBigControl.resx">
+      <DependentUpon>DropHereBigControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\DropHereSmallControl.resx">
+      <DependentUpon>DropHereSmallControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Players\GenericPlayerControl.resx">
+      <DependentUpon>GenericPlayerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\HighlightDividerBarControl.resx">
+      <DependentUpon>HighlightDividerBarControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\HighlightThumbnailControl.resx">
+      <DependentUpon>HighlightThumbnailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\FacebookLoginDialog.resx">
+      <DependentUpon>FacebookLoginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\NoHighlightThumbnailControl.resx">
+      <DependentUpon>NoHighlightThumbnailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\PictureButtonControl.resx">
+      <DependentUpon>PictureButtonControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\PictureCheckBoxControl.resx">
+      <DependentUpon>PictureCheckBoxControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\PublishButtonControl.resx">
+      <DependentUpon>PublishButtonControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\PublishStatusControl.resx">
+      <DependentUpon>PublishStatusControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\RawVideoThumbnailControl.resx">
+      <DependentUpon>RawVideoThumbnailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\ScanControl.resx">
+      <DependentUpon>ScanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\SensitivitySliderControl.resx">
+      <DependentUpon>SensitivitySliderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Players\WindowsMediaPlayerControl.resx">
+      <DependentUpon>WindowsMediaPlayerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\TutorialBubble.resx">
+      <DependentUpon>TutorialBubble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\TutorialEscapeHatch.resx">
+      <DependentUpon>TutorialEscapeHatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnhandledExceptionDlg\UnhandledExDlgForm.resx">
+      <DependentUpon>UnhandledExDlgForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="app.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Apache License Version 2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="avcodec-53.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="avcodec-54.dll" />
+    <Content Include="avformat-53.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="avformat-54.dll" />
+    <Content Include="avutil-51.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\128x128.png" />
+    <None Include="Resources\HelveticaNeue-Bold.ttf" />
+    <None Include="Resources\HelveticaNeue.ttf" />
+    <None Include="Resources\HelveticaNeueLTCom-Md.ttf" />
+    <None Include="Resources\HTOWERT.TTF" />
+    <None Include="Resources\HTOWERTI.TTF" />
+    <None Include="Resources\OpenSans-Bold.ttf" />
+    <None Include="Resources\OpenSans-Light.ttf" />
+    <None Include="Resources\OpenSans-Regular.ttf" />
+    <None Include="Resources\tutorial_icon_1.png" />
+    <None Include="Resources\tutorial_icon_2.png" />
+    <None Include="Resources\tutorial_icon_3.png" />
+    <None Include="Resources\hh-50px-lockup.png" />
+    <None Include="Resources\radio_selected.png" />
+    <None Include="Resources\radio_press.png" />
+    <None Include="Resources\radio_unselected.png" />
+    <None Include="Resources\metal_pattern.png" />
+    <None Include="Resources\question.png" />
+    <Content Include="blackpixel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dna.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Interop.QTOLibrary.dll" />
+    <Content Include="lgpl-2.1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lgpl-3.0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MediaInfo.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MediaInfo.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="msvcp100.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="msvcr100.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NOTICE.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OdessaEngineV2Project.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\facebook16x16.png" />
+    <None Include="Resources\twitter16x16.png" />
+    <Content Include="OdessaEngineV2Project.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\media_playback_pause.png" />
+    <None Include="Resources\timeline.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\pr_icon_24.png" />
+    <None Include="Resources\MovieMaker.png" />
+    <None Include="Resources\left-handle.png" />
+    <None Include="Resources\right-handle.png" />
+    <None Include="Resources\save16x16.png" />
+    <None Include="Resources\breadcrumbs-active-1px-tile.png" />
+    <None Include="Resources\breadcrumbs-active-left-end.png" />
+    <None Include="Resources\breadcrumbs-active-right-end.png" />
+    <None Include="Resources\titlebar-close-icon.png" />
+    <None Include="Resources\titlebar-maximize-icon.png" />
+    <None Include="Resources\titlebar-minimize-icon.png" />
+    <None Include="Resources\titlebar-tile.png" />
+    <None Include="Resources\scan-button.png" />
+    <None Include="Resources\playback-hand-marker.png" />
+    <None Include="Resources\breadcrumbs-both-inactive-forward-arrow.png" />
+    <None Include="Resources\breadcrumbs-inactive-left-end.png" />
+    <None Include="Resources\breadcrumbs-inactive-right-end.png" />
+    <None Include="Resources\breadcrumbs-inactive-1px-tile.png" />
+    <None Include="Resources\breadcrumbs-both-active-forward-arrow.png" />
+    <None Include="Resources\select-droptarget-large.png" />
+    <None Include="Resources\select-droptarget-small.png" />
+    <None Include="Resources\breadcrumbs-first-active-forward-arrow.png" />
+    <None Include="Resources\breadcrumbs-second-active-forward-arrow.png" />
+    <None Include="Resources\review-divider-bar-5px-horizontal-tile.png" />
+    <None Include="Resources\tutorial-bold-headline-afterrecording.png" />
+    <None Include="Resources\tutorial-button-getstarted.png" />
+    <None Include="Resources\tutorial-photolabel-likethis.png" />
+    <None Include="Resources\tutorial-photolabel-notlikethis.png" />
+    <None Include="Resources\tutorial-subheader-text.png" />
+    <None Include="Resources\tutorial-timelinedemo.png" />
+    <None Include="Resources\tutorial-titlebar-heading-howtouse.png" />
+    <None Include="Resources\16x16.png" />
+    <None Include="Resources\review-novideos-question-mark-icon.png" />
+    <None Include="Resources\header-icon-help.png" />
+    <None Include="Resources\breadcrumbs-titles-active-scanforhighlights.png" />
+    <None Include="Resources\header-main-logo.png" />
+    <None Include="Resources\titlebar-close-icon-hover.png" />
+    <None Include="Resources\titlebar-maximize-icon-hover.png" />
+    <None Include="Resources\titlebar-minimize-icon-hover.png" />
+    <None Include="Resources\titlebar-2px-vertical-divider.png" />
+    <None Include="Resources\background-pattern-102x102-tile.png" />
+    <None Include="Resources\workarea-corner-topleft.png" />
+    <None Include="Resources\workarea-toptopedge-3px-horizontal-tile.png" />
+    <None Include="Resources\workarea-corner-topright.png" />
+    <None Include="Resources\workarea-corner-bottomleft.png" />
+    <None Include="Resources\workarea-bottomedge-2px-tile-horizontal.png" />
+    <None Include="Resources\workarea-corner-bottomright.png" />
+    <None Include="Resources\editpanel-smallheading-title.png" />
+    <None Include="Resources\editpanel-smallheading-sharesave.png" />
+    <None Include="Resources\editpanel-field-background-videotitle.png" />
+    <None Include="Resources\titlebar-inactive-overlay-1px-transparent.png" />
+    <None Include="Resources\settings-sensitivity-slider-backing.png" />
+    <None Include="Resources\settings-sensitivity-slider-backing-08.png" />
+    <None Include="Resources\settings-sensitivity-slider-handle.png" />
+    <None Include="Resources\settings-switch-off.png" />
+    <None Include="Resources\settings-switch-on.png" />
+    <None Include="Resources\settings-titlebar-title.png" />
+    <None Include="Resources\settings-help-icon-small.png" />
+    <None Include="Resources\settings-sectiontitle-advancedoptions.png" />
+    <None Include="Resources\settings-sectiontitle-highlightlength.png" />
+    <None Include="Resources\settings-sectiontitle-scansensitivity.png" />
+    <None Include="Resources\editpanel-playbackcontrols-playhead-transparent.png" />
+    <None Include="Resources\editpanel-playbackcontrols-play.png" />
+    <None Include="Resources\editpanel-playbackcontrols-timeline-leftend.png" />
+    <None Include="Resources\editpanel-playbackcontrols-timeline-nohighlight-tile-horizontal.png" />
+    <None Include="Resources\editpanel-playbackcontrols-timeline-rightend.png" />
+    <None Include="Resources\editpanel-playbackcontrols-timeline-yeshighlight-tile-horizontal.png" />
+    <None Include="Resources\editpanel-playbackcontrols-pause.png" />
+    <None Include="Resources\editpanel-playbackcontrols-handle-left.png" />
+    <None Include="Resources\editpanel-playbackcontrols-handle-right.png" />
+    <None Include="Resources\titlebar-restore-icon.png" />
+    <None Include="Resources\titlebar-restore-icon-hover.png" />
+    <None Include="Resources\header-icon-settings.png" />
+    <None Include="Resources\30 percent opacity.png" />
+    <None Include="Resources\50_percent_opacity.png" />
+    <None Include="Resources\export-appicon-sony-vegas.png" />
+    <None Include="Resources\workarea-corner-topright-trans.png" />
+    <None Include="Resources\settings-2px-section-divider.png" />
+    <None Include="Resources\settings-sectiontitle-license.png" />
+    <None Include="Resources\settings-button-green-ok.png" />
+    <None Include="Resources\review-button-green-startover.png" />
+    <None Include="Resources\review-video-hover-outlineplay.png" />
+    <None Include="Resources\review-video-hover-rightpoint.png" />
+    <None Include="Resources\editpanel-playbackcontrols-playhead.png" />
+    <None Include="Resources\editpanel-button-videoselect-delete.png" />
+    <None Include="Resources\editpanel-button-videoselect-delete-hover.png" />
+    <None Include="Resources\editpanel-button-videoselect-left.png" />
+    <None Include="Resources\editpanel-button-videoselect-left-hover.png" />
+    <None Include="Resources\editpanel-button-videoselect-right-hover.png" />
+    <None Include="Resources\editpanel-verticaldivider-2px.png" />
+    <None Include="Resources\tutorial-playcontrol-annotation.png" />
+    <None Include="Resources\select-icon-samplevideo.png" />
+    <None Include="Resources\shell-hh-logo-pro.png" />
+    <None Include="Resources\review-icon-proglyph.png" />
+    <None Include="Resources\select-tooltip-firstrun.png" />
+    <None Include="Resources\icons-proglyph.png" />
+    <None Include="Resources\select-droptarget-large-active.png" />
+    <None Include="Resources\select-droptarget-small-active.png" />
+    <None Include="Resources\button-gray-cancel-click.png" />
+    <None Include="Resources\button-gray-cancel-hover.png" />
+    <None Include="Resources\button-gray-cancel-normal.png" />
+    <None Include="Resources\button-green-activate-click.png" />
+    <None Include="Resources\button-green-activate-hover.png" />
+    <None Include="Resources\button-green-activate-normal.png" />
+    <None Include="Resources\button-green-continue-hover.png" />
+    <None Include="Resources\button-green-continue-click.png" />
+    <None Include="Resources\button-green-continue-normal.png" />
+    <None Include="Resources\button-short-green-ok-hover.png" />
+    <None Include="Resources\button-short-green-ok-normal.png" />
+    <None Include="Resources\button-short-green-ok-click.png" />
+    <None Include="Resources\button-gray-goback-click.png" />
+    <None Include="Resources\button-gray-goback-hover.png" />
+    <None Include="Resources\button-gray-goback-normal.png" />
+    <None Include="Resources\button-green-startover-click.png" />
+    <None Include="Resources\button-green-startover-hover.png" />
+    <None Include="Resources\button-green-startover-normal.png" />
+    <None Include="Resources\button-green-scanvideos-normal.png" />
+    <None Include="Resources\button-green-scanvideos-hover.png" />
+    <None Include="Resources\button-green-scanvideos-click.png" />
+    <None Include="Resources\header-main-logo-pro.png" />
+    <None Include="Resources\button-green-startnow-click.png" />
+    <None Include="Resources\button-green-startnow-hover.png" />
+    <None Include="Resources\button-green-startnow-normal.png" />
+    <None Include="Resources\button-long-green-done-click.png" />
+    <None Include="Resources\button-long-green-done-hover.png" />
+    <None Include="Resources\button-long-green-done-normal.png" />
+    <None Include="Resources\editpanel-share-element.png" />
+    <None Include="Resources\review-sharestatus-icon-error.png" />
+    <None Include="Resources\review-sharestatus-icon-spinner.png" />
+    <None Include="Resources\review-sharestatus-icon-success.png" />
+    <None Include="Resources\select-button-browse.png" />
+    <None Include="Resources\select-button-camera.png" />
+    <None Include="Resources\select-button-browse-hover.png" />
+    <None Include="Resources\select-button-camera-hover.png" />
+    <None Include="Resources\workarea-bottom-2px-tile-horizontal.png" />
+    <None Include="Resources\workarea-leftside-2px-vertical-tile.png" />
+    <None Include="Resources\workarea-rightside-2px-vertical-tile.png" />
+    <None Include="Resources\workarea-top-3px-tile-horizontal.png" />
+    <None Include="Resources\notlikethis-110x110.png" />
+    <None Include="Resources\likethis-110x110.png" />
+    <None Include="Resources\logo32x32.png" />
+    <None Include="Resources\logo50x50.png" />
+    <None Include="Resources\logo100x100.png" />
+    <None Include="Resources\watermark-16x16.png" />
+    <None Include="Resources\watermark-24x24.png" />
+    <None Include="Resources\watermark-36x36.png" />
+    <None Include="Resources\watermark-48x48.png" />
+    <None Include="Resources\watermark-54x54.png" />
+    <None Include="Resources\watermark-64x64.png" />
+    <None Include="Resources\breadcrumbs-text-saveshare.png" />
+    <None Include="Resources\breadcrumbs-text-saveshare-active.png" />
+    <None Include="Resources\breadcrumbs-text-scanhighlights.png" />
+    <None Include="Resources\breadcrumbs-text-scanhighlights-active.png" />
+    <None Include="Resources\breadcrumbs-text-selectvideos.png" />
+    <None Include="Resources\breadcrumbs-text-selectvideos-active.png" />
+    <None Include="Resources\icons-16px-open-in-software.png" />
+    <None Include="Resources\icons-16px-saveall.png" />
+    <None Include="Resources\icons-42px-facebook.png" />
+    <None Include="Resources\icons-42px-savetocomputer.png" />
+    <None Include="Resources\review-video-thumb-rightside-point-mask.png" />
+    <None Include="Resources\review-video-thumb-rightside-point-mask-hover.png" />
+    <None Include="Resources\editpanel-share-element-blue.png" />
+    <None Include="Resources\editpanel-share-element-green.png" />
+    <None Include="Resources\editpanel-share-element-red.png" />
+    <None Include="Resources\editpanel-playbackcontrols-timeline-rightend-withclock.png" />
+    <None Include="Resources\review-video-hover-deleteicon.png" />
+    <None Include="Resources\review-video-hover-deleteicon-hover.png" />
+    <Content Include="Pro snowboarder Justin Morgan.mov">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\SelectInputVideosControl.resx">
+      <DependentUpon>SelectInputVideosControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsentForm.resx">
+      <DependentUpon>ConsentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DRM Helpers\ActivationWelcome.resx">
+      <DependentUpon>ActivationWelcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DRM Helpers\TFProxy.resx">
+      <DependentUpon>TFProxy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Controls\ReviewVideosControl.resx">
+      <DependentUpon>ReviewVideosControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TutorialForm.resx">
+      <DependentUpon>TutorialForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DRM Helpers\TFActivation.resx">
+      <DependentUpon>TFActivation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DRM Helpers\TFReactivation.resx">
+      <DependentUpon>TFReactivation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ffmpeg.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="GaDotNet.1.2\Source\GaDotNet.Common\GaDotNet.Common.csproj">
+      <Project>{88A1E045-4809-4220-A9CC-A6406675B409}</Project>
+      <Name>GaDotNet.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Apache License Version 2.txt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="avcodec-53.dll">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="avcodec-54.dll">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="avformat-53.dll">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="avformat-54.dll">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="avutil-51.dll">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="AxInterop.QTOControlLib">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="AxInterop.WMPLib">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="blackpixel.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="dna.dll">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Facebook">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ffmpeg.exe">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="GaDotNet.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Interop.QTOControlLib">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Interop.WMPLib">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="lgpl-2.1.txt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="lgpl-3.0.txt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="MediaInfo.dll">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="MediaInfo.exe">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="msvcp100.dll">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="msvcr100.dll">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="NLog">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="NOTICE.txt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="OdessaEngineV2Project.dll">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="OdessaEngineV2Project.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Pro snowboarder Justin Morgan.mov">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxQTOControlLib">
+      <Guid>{7B92F833-027D-402B-BFF9-A67697366F4E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>True</Isolated>
+      <Private>True</Private>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="QTOControlLib">
+      <Guid>{7B92F833-027D-402B-BFF9-A67697366F4E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>True</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>True</Private>
+    </COMReference>
+    <COMReference Include="QTOLibrary">
+      <Guid>{29866AED-1E14-417D-BA0F-1A2BE6F5A19E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>True</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>True</Private>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>REM Obfuscate
+if $(ConfigurationName)==Release "C:\Program Files (x86)\Eazfuscator.NET\Eazfuscator.NET.exe" "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" --statistics --nologo --newline-flush
+
+REM Sign target output
+if $(ConfigurationName)==Release echo "Signing HighlightHunter.exe"
+if $(ConfigurationName)==Release "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\signtool" sign /f "$(ProjectDir)..\Certificates\Comodo Certificate.pfx" /p gamecon3763 /d "Highlight Hunter" /du "http://www.highlighthunter.com/" /t http://timestamp.comodoca.com/authenticode /v "$(TargetDir)$(TargetFileName)"
+if $(ConfigurationName)==Release "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\signtool" verify /pa "$(TargetDir)$(TargetFileName)"
+
+REM Update manifest
+if $(ConfigurationName)==Release echo "Updating manifest"
+if $(ConfigurationName)==Release  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\mage" -update "$(TargetDir)$(TargetFileName).manifest" -certfile "$(ProjectDir)..\Certificates\Comodo Certificate.pfx" -Password gamecon3763
+
+REM copy over symbols
+if $(ConfigurationName)==Release echo "Copying over symbols"
+if $(ConfigurationName)==Release copy "$(TargetDir)*.pdb" "$(SolutionDir)Installer\Symbols"
+if $(ConfigurationName)==Release echo "Symbols copied to $(SolutionDir)Installer\Symbols"
+
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="BeforePublish">
+    <!-- See JohnFx's answer on http://stackoverflow.com/questions/7869129/clickonce-cannot-publish-because-a-project-failed-to-build -->
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(IntermediateOutputPath)" />
+  </Target>
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+</Project>

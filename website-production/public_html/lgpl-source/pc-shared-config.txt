@@ -1,0 +1,1 @@
+--disable-static --enable-shared --disable-outdev=sdl --enable-runtime-cpudetect --enable-avisynth --enable-bzlib --enable-frei0r --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-libopenjpeg --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libvpx --enable-zlib

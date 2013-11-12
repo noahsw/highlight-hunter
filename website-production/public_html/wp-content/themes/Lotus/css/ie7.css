@@ -1,0 +1,25 @@
+.slideshow #thumbNav { margin-top: 56% }
+
+.posts h6 a
+{
+	display:block;
+	margin-top: -22px;
+}
+
+#menu_wrapper .nav ul li a, #menu_wrapper div .nav li a
+{
+	position: relative;
+	z-index: 99;
+}
+
+#anything_slider .arrow
+{
+	position: relative;
+	z-index: 999;
+	border: 1px solid #fff;
+}
+
+.post_header h3 a
+{
+	margin-left: 0px;
+}

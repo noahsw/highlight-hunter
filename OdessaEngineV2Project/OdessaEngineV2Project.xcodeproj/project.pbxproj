@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		424948DB144CF0E600BD1F53 /* Crc32Dynamic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 424948D8144CF0E600BD1F53 /* Crc32Dynamic.cpp */; };
+		42546AA9142AE77B00443A2F /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42546AA5142AE77A00443A2F /* Log.cpp */; };
+		42546AAB142AE77B00443A2F /* OdessaEngineV2Project.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42546AA7142AE77B00443A2F /* OdessaEngineV2Project.cpp */; };
+		4275C32D145A137800CAB350 /* AVHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4275C32B145A137800CAB350 /* AVHelper.cpp */; };
+		42857D1114310AFE00F0D0A0 /* Stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42857D0F14310AFE00F0D0A0 /* Stdafx.cpp */; };
+		428AB9DF144750E500294815 /* Authorization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428AB9DD144750E500294815 /* Authorization.cpp */; };
+		CE96F0661479D41D009A96AA /* libavcodec.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE96F0561479D3E4009A96AA /* libavcodec.dylib */; };
+		CE96F0691479D41D009A96AA /* libavformat.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE96F0591479D3E4009A96AA /* libavformat.dylib */; };
+		CE96F06A1479D41D009A96AA /* libavutil.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE96F05A1479D3E4009A96AA /* libavutil.dylib */; };
+		CE96F06D1479D442009A96AA /* README 0.8.6.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE96F06C1479D442009A96AA /* README 0.8.6.txt */; };
+		CEAFDCBE147EFB3700EAAA69 /* libavcodec.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96F0561479D3E4009A96AA /* libavcodec.dylib */; };
+		CEAFDCC1147EFB3700EAAA69 /* libavformat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96F0591479D3E4009A96AA /* libavformat.dylib */; };
+		CEAFDCC2147EFB3700EAAA69 /* libavutil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96F05A1479D3E4009A96AA /* libavutil.dylib */; };
+		CED45B291540DE02002D21C0 /* OdessaEngineV2Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 42546AA8142AE77B00443A2F /* OdessaEngineV2Project.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F61408B1423EE35002C52F4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Libraries;
+			dstSubfolderSpec = 6;
+			files = (
+				CE96F0661479D41D009A96AA /* libavcodec.dylib in CopyFiles */,
+				CE96F0691479D41D009A96AA /* libavformat.dylib in CopyFiles */,
+				CE96F06A1479D41D009A96AA /* libavutil.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		424948D7144CF0E600BD1F53 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		424948D8144CF0E600BD1F53 /* Crc32Dynamic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Crc32Dynamic.cpp; sourceTree = "<group>"; };
+		424948D9144CF0E600BD1F53 /* Crc32Dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crc32Dynamic.h; sourceTree = "<group>"; };
+		42546AA5142AE77A00443A2F /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		42546AA6142AE77B00443A2F /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		42546AA7142AE77B00443A2F /* OdessaEngineV2Project.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OdessaEngineV2Project.cpp; sourceTree = "<group>"; };
+		42546AA8142AE77B00443A2F /* OdessaEngineV2Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OdessaEngineV2Project.h; sourceTree = "<group>"; };
+		4275C32B145A137800CAB350 /* AVHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AVHelper.cpp; sourceTree = "<group>"; };
+		4275C32C145A137800CAB350 /* AVHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVHelper.h; sourceTree = "<group>"; };
+		42857D0F14310AFE00F0D0A0 /* Stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stdafx.cpp; sourceTree = "<group>"; };
+		42857D1014310AFE00F0D0A0 /* Stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stdafx.h; sourceTree = "<group>"; };
+		428AB9DD144750E500294815 /* Authorization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Authorization.cpp; sourceTree = "<group>"; };
+		428AB9DE144750E500294815 /* Authorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authorization.h; sourceTree = "<group>"; };
+		8FC2BF38142286B6003BEAD7 /* OdessaEngineV2Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OdessaEngineV2Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC2BF43142286B6003BEAD7 /* OdessaEngineV2Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "OdessaEngineV2Project-Info.plist"; path = "Mac Support Files/OdessaEngineV2Project-Info.plist"; sourceTree = "<group>"; };
+		8FC2BF47142286B6003BEAD7 /* OdessaEngineV2Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OdessaEngineV2Project-Prefix.pch"; path = "Mac Support Files/OdessaEngineV2Project-Prefix.pch"; sourceTree = "<group>"; };
+		CE96F0561479D3E4009A96AA /* libavcodec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.dylib; path = ffmpeg/lib/libavcodec.dylib; sourceTree = SOURCE_ROOT; };
+		CE96F0591479D3E4009A96AA /* libavformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.dylib; path = ffmpeg/lib/libavformat.dylib; sourceTree = SOURCE_ROOT; };
+		CE96F05A1479D3E4009A96AA /* libavutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.dylib; path = ffmpeg/lib/libavutil.dylib; sourceTree = SOURCE_ROOT; };
+		CE96F06C1479D442009A96AA /* README 0.8.6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "README 0.8.6.txt"; path = "ffmpeg/README 0.8.6.txt"; sourceTree = SOURCE_ROOT; };
+		CE96F0701479D475009A96AA /* avcodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avcodec.h; sourceTree = "<group>"; };
+		CE96F0711479D475009A96AA /* avfft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avfft.h; sourceTree = "<group>"; };
+		CE96F0721479D475009A96AA /* dxva2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxva2.h; sourceTree = "<group>"; };
+		CE96F0731479D475009A96AA /* opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opt.h; sourceTree = "<group>"; };
+		CE96F0741479D475009A96AA /* vaapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vaapi.h; sourceTree = "<group>"; };
+		CE96F0751479D475009A96AA /* vdpau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vdpau.h; sourceTree = "<group>"; };
+		CE96F0761479D475009A96AA /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		CE96F0771479D475009A96AA /* xvmc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xvmc.h; sourceTree = "<group>"; };
+		CE96F0811479D475009A96AA /* avformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avformat.h; sourceTree = "<group>"; };
+		CE96F0821479D475009A96AA /* avio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avio.h; sourceTree = "<group>"; };
+		CE96F0831479D475009A96AA /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		CE96F0851479D475009A96AA /* adler32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adler32.h; sourceTree = "<group>"; };
+		CE96F0861479D475009A96AA /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		CE96F0871479D475009A96AA /* attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attributes.h; sourceTree = "<group>"; };
+		CE96F0881479D475009A96AA /* audioconvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioconvert.h; sourceTree = "<group>"; };
+		CE96F0891479D475009A96AA /* avassert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avassert.h; sourceTree = "<group>"; };
+		CE96F08A1479D475009A96AA /* avstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avstring.h; sourceTree = "<group>"; };
+		CE96F08B1479D475009A96AA /* avutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avutil.h; sourceTree = "<group>"; };
+		CE96F08C1479D475009A96AA /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		CE96F08D1479D475009A96AA /* bswap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bswap.h; sourceTree = "<group>"; };
+		CE96F08E1479D475009A96AA /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		CE96F08F1479D475009A96AA /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		CE96F0901479D475009A96AA /* crc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc.h; sourceTree = "<group>"; };
+		CE96F0911479D475009A96AA /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		CE96F0921479D475009A96AA /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		CE96F0931479D475009A96AA /* eval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eval.h; sourceTree = "<group>"; };
+		CE96F0941479D475009A96AA /* fifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fifo.h; sourceTree = "<group>"; };
+		CE96F0951479D475009A96AA /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		CE96F0961479D475009A96AA /* imgutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgutils.h; sourceTree = "<group>"; };
+		CE96F0971479D475009A96AA /* intfloat_readwrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intfloat_readwrite.h; sourceTree = "<group>"; };
+		CE96F0981479D475009A96AA /* intreadwrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intreadwrite.h; sourceTree = "<group>"; };
+		CE96F0991479D475009A96AA /* lfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfg.h; sourceTree = "<group>"; };
+		CE96F09A1479D475009A96AA /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		CE96F09B1479D475009A96AA /* lzo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzo.h; sourceTree = "<group>"; };
+		CE96F09C1479D475009A96AA /* mathematics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathematics.h; sourceTree = "<group>"; };
+		CE96F09D1479D475009A96AA /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		CE96F09E1479D475009A96AA /* mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mem.h; sourceTree = "<group>"; };
+		CE96F09F1479D475009A96AA /* opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opt.h; sourceTree = "<group>"; };
+		CE96F0A01479D475009A96AA /* parseutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseutils.h; sourceTree = "<group>"; };
+		CE96F0A11479D475009A96AA /* pixdesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixdesc.h; sourceTree = "<group>"; };
+		CE96F0A21479D475009A96AA /* pixfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixfmt.h; sourceTree = "<group>"; };
+		CE96F0A31479D475009A96AA /* random_seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_seed.h; sourceTree = "<group>"; };
+		CE96F0A41479D475009A96AA /* rational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rational.h; sourceTree = "<group>"; };
+		CE96F0A51479D475009A96AA /* samplefmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = samplefmt.h; sourceTree = "<group>"; };
+		CE96F0A61479D475009A96AA /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC2BF34142286B5003BEAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFDCBE147EFB3700EAAA69 /* libavcodec.dylib in Frameworks */,
+				CEAFDCC1147EFB3700EAAA69 /* libavformat.dylib in Frameworks */,
+				CEAFDCC2147EFB3700EAAA69 /* libavutil.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FC2BF2C142286B5003BEAD7 = {
+			isa = PBXGroup;
+			children = (
+				4275C32B145A137800CAB350 /* AVHelper.cpp */,
+				4275C32C145A137800CAB350 /* AVHelper.h */,
+				428AB9DD144750E500294815 /* Authorization.cpp */,
+				428AB9DE144750E500294815 /* Authorization.h */,
+				424948D7144CF0E600BD1F53 /* Common.h */,
+				424948D8144CF0E600BD1F53 /* Crc32Dynamic.cpp */,
+				424948D9144CF0E600BD1F53 /* Crc32Dynamic.h */,
+				42546AA5142AE77A00443A2F /* Log.cpp */,
+				42546AA6142AE77B00443A2F /* Log.h */,
+				42546AA7142AE77B00443A2F /* OdessaEngineV2Project.cpp */,
+				42546AA8142AE77B00443A2F /* OdessaEngineV2Project.h */,
+				42857D0F14310AFE00F0D0A0 /* Stdafx.cpp */,
+				42857D1014310AFE00F0D0A0 /* Stdafx.h */,
+				8FC2BF42142286B6003BEAD7 /* Mac Support Files */,
+				8FC2DF561423331A003BEAD7 /* ffmpeg */,
+				8FC2BF3A142286B6003BEAD7 /* Frameworks */,
+				8FC2BF39142286B6003BEAD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FC2BF39142286B6003BEAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC2BF38142286B6003BEAD7 /* OdessaEngineV2Project.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC2BF3A142286B6003BEAD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FC2BF42142286B6003BEAD7 /* Mac Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FC2BF43142286B6003BEAD7 /* OdessaEngineV2Project-Info.plist */,
+				8FC2BF47142286B6003BEAD7 /* OdessaEngineV2Project-Prefix.pch */,
+			);
+			name = "Mac Support Files";
+			path = "Libavcodec/Mac Support Files";
+			sourceTree = "<group>";
+		};
+		8FC2DF561423331A003BEAD7 /* ffmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				CE96F06E1479D475009A96AA /* include */,
+				CE96F06C1479D442009A96AA /* README 0.8.6.txt */,
+				8FC2DF931423331A003BEAD7 /* lib */,
+			);
+			name = ffmpeg;
+			path = "ffmpeg-0.8.3-mac-x86_64";
+			sourceTree = SOURCE_ROOT;
+		};
+		8FC2DF931423331A003BEAD7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				CE96F0561479D3E4009A96AA /* libavcodec.dylib */,
+				CE96F0591479D3E4009A96AA /* libavformat.dylib */,
+				CE96F05A1479D3E4009A96AA /* libavutil.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		CE96F06E1479D475009A96AA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CE96F06F1479D475009A96AA /* libavcodec */,
+				CE96F0801479D475009A96AA /* libavformat */,
+				CE96F0841479D475009A96AA /* libavutil */,
+			);
+			name = include;
+			path = ffmpeg/include;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE96F06F1479D475009A96AA /* libavcodec */ = {
+			isa = PBXGroup;
+			children = (
+				CE96F0701479D475009A96AA /* avcodec.h */,
+				CE96F0711479D475009A96AA /* avfft.h */,
+				CE96F0721479D475009A96AA /* dxva2.h */,
+				CE96F0731479D475009A96AA /* opt.h */,
+				CE96F0741479D475009A96AA /* vaapi.h */,
+				CE96F0751479D475009A96AA /* vdpau.h */,
+				CE96F0761479D475009A96AA /* version.h */,
+				CE96F0771479D475009A96AA /* xvmc.h */,
+			);
+			path = libavcodec;
+			sourceTree = "<group>";
+		};
+		CE96F0801479D475009A96AA /* libavformat */ = {
+			isa = PBXGroup;
+			children = (
+				CE96F0811479D475009A96AA /* avformat.h */,
+				CE96F0821479D475009A96AA /* avio.h */,
+				CE96F0831479D475009A96AA /* version.h */,
+			);
+			path = libavformat;
+			sourceTree = "<group>";
+		};
+		CE96F0841479D475009A96AA /* libavutil */ = {
+			isa = PBXGroup;
+			children = (
+				CE96F0851479D475009A96AA /* adler32.h */,
+				CE96F0861479D475009A96AA /* aes.h */,
+				CE96F0871479D475009A96AA /* attributes.h */,
+				CE96F0881479D475009A96AA /* audioconvert.h */,
+				CE96F0891479D475009A96AA /* avassert.h */,
+				CE96F08A1479D475009A96AA /* avstring.h */,
+				CE96F08B1479D475009A96AA /* avutil.h */,
+				CE96F08C1479D475009A96AA /* base64.h */,
+				CE96F08D1479D475009A96AA /* bswap.h */,
+				CE96F08E1479D475009A96AA /* common.h */,
+				CE96F08F1479D475009A96AA /* cpu.h */,
+				CE96F0901479D475009A96AA /* crc.h */,
+				CE96F0911479D475009A96AA /* dict.h */,
+				CE96F0921479D475009A96AA /* error.h */,
+				CE96F0931479D475009A96AA /* eval.h */,
+				CE96F0941479D475009A96AA /* fifo.h */,
+				CE96F0951479D475009A96AA /* file.h */,
+				CE96F0961479D475009A96AA /* imgutils.h */,
+				CE96F0971479D475009A96AA /* intfloat_readwrite.h */,
+				CE96F0981479D475009A96AA /* intreadwrite.h */,
+				CE96F0991479D475009A96AA /* lfg.h */,
+				CE96F09A1479D475009A96AA /* log.h */,
+				CE96F09B1479D475009A96AA /* lzo.h */,
+				CE96F09C1479D475009A96AA /* mathematics.h */,
+				CE96F09D1479D475009A96AA /* md5.h */,
+				CE96F09E1479D475009A96AA /* mem.h */,
+				CE96F09F1479D475009A96AA /* opt.h */,
+				CE96F0A01479D475009A96AA /* parseutils.h */,
+				CE96F0A11479D475009A96AA /* pixdesc.h */,
+				CE96F0A21479D475009A96AA /* pixfmt.h */,
+				CE96F0A31479D475009A96AA /* random_seed.h */,
+				CE96F0A41479D475009A96AA /* rational.h */,
+				CE96F0A51479D475009A96AA /* samplefmt.h */,
+				CE96F0A61479D475009A96AA /* sha.h */,
+			);
+			path = libavutil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8FC2BF35142286B5003BEAD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED45B291540DE02002D21C0 /* OdessaEngineV2Project.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8FC2BF37142286B5003BEAD7 /* OdessaEngineV2Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC2BF4D142286B6003BEAD7 /* Build configuration list for PBXNativeTarget "OdessaEngineV2Project" */;
+			buildPhases = (
+				8FC2BF33142286B5003BEAD7 /* Sources */,
+				8FC2BF34142286B5003BEAD7 /* Frameworks */,
+				8FC2BF35142286B5003BEAD7 /* Headers */,
+				8FC2BF36142286B5003BEAD7 /* Resources */,
+				8F61408B1423EE35002C52F4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OdessaEngineV2Project;
+			productName = Libavcodec;
+			productReference = 8FC2BF38142286B6003BEAD7 /* OdessaEngineV2Project.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FC2BF2E142286B5003BEAD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Authentically Digital LLC;
+			};
+			buildConfigurationList = 8FC2BF31142286B5003BEAD7 /* Build configuration list for PBXProject "OdessaEngineV2Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FC2BF2C142286B5003BEAD7;
+			productRefGroup = 8FC2BF39142286B6003BEAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FC2BF37142286B5003BEAD7 /* OdessaEngineV2Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FC2BF36142286B5003BEAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE96F06D1479D442009A96AA /* README 0.8.6.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC2BF33142286B5003BEAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42546AA9142AE77B00443A2F /* Log.cpp in Sources */,
+				42546AAB142AE77B00443A2F /* OdessaEngineV2Project.cpp in Sources */,
+				42857D1114310AFE00F0D0A0 /* Stdafx.cpp in Sources */,
+				428AB9DF144750E500294815 /* Authorization.cpp in Sources */,
+				424948DB144CF0E600BD1F53 /* Crc32Dynamic.cpp in Sources */,
+				4275C32D145A137800CAB350 /* AVHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FC2BF4B142286B6003BEAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86";
+			};
+			name = Debug;
+		};
+		8FC2BF4C142286B6003BEAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "RELEASE=1";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86";
+			};
+			name = Release;
+		};
+		8FC2BF4E142286B6003BEAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac Support Files/OdessaEngineV2Project-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ffmpeg/include\"/**",
+				);
+				INFOPLIST_FILE = "Mac Support Files/OdessaEngineV2Project-Info.plist";
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Libraries";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ffmpeg/lib\"",
+					"\"$(SRCROOT)/zlib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = OdessaEngineV2Project;
+				VALID_ARCHS = "i386 x86";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8FC2BF4F142286B6003BEAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac Support Files/OdessaEngineV2Project-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ffmpeg/include\"/**",
+				);
+				INFOPLIST_FILE = "Mac Support Files/OdessaEngineV2Project-Info.plist";
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Libraries";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ffmpeg/lib\"",
+					"\"$(SRCROOT)/zlib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = OdessaEngineV2Project;
+				STRIP_INSTALLED_PRODUCT = YES;
+				VALID_ARCHS = "i386 x86";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FC2BF31142286B5003BEAD7 /* Build configuration list for PBXProject "OdessaEngineV2Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC2BF4B142286B6003BEAD7 /* Debug */,
+				8FC2BF4C142286B6003BEAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC2BF4D142286B6003BEAD7 /* Build configuration list for PBXNativeTarget "OdessaEngineV2Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC2BF4E142286B6003BEAD7 /* Debug */,
+				8FC2BF4F142286B6003BEAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FC2BF2E142286B5003BEAD7 /* Project object */;
+}

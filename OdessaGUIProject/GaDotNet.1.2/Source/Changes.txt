@@ -1,0 +1,16 @@
+GaDotNet Google Analytics Dot Net tracking
+by Doug Rathbone
+http://www.diaryofaninja.com
+
+Version 1
+- Support for page views
+
+Version 1.1
+- Fixed bug that stopped page views being tracked
+
+Version 1.2
+- Added Event tracking support 
+- Added the IP address parameter (thanks Meixger) 
+- some extra overloads to the request factory 
+- Added testing (naughty naughty)
+- Some general house cleaning 

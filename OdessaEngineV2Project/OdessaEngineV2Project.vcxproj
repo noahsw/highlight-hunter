@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|Win32">
+      <Configuration>Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43472E50-7F1E-438B-8763-BB25C65960EA}</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>OdessaEngineV2Project</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>false</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>false</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>false</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="CustomProperties.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="CustomProperties.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="CustomProperties.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\</OutDir>
+    <IncludePath>$(ProjectDir)\$(ffmpegdir)\include\libavswscale;$(ProjectDir)\$(ffmpegdir)\include\libavutil;$(ProjectDir)\$(ffmpegdir)\include\libavformat;$(ProjectDir)\$(ffmpegdir)\include\libavfilter;$(ProjectDir)\$(ffmpegdir)\include\libavdevice;$(ProjectDir)\$(ffmpegdir)\include;$(ProjectDir)\$(ffmpegdir)\include\libavcodec;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\UnitTest++\lib;$(ProjectDir)\$(ffmpegdir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\</OutDir>
+    <IncludePath>$(ProjectDir)\$(ffmpegdir)\include\libavswscale;$(ProjectDir)\$(ffmpegdir)\include\libavutil;$(ProjectDir)\$(ffmpegdir)\include\libavformat;$(ProjectDir)\$(ffmpegdir)\include\libavfilter;$(ProjectDir)\$(ffmpegdir)\include\libavdevice;$(ProjectDir)\$(ffmpegdir)\include;$(ProjectDir)\$(ffmpegdir)\include\libavcodec;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\$(ffmpegdir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\</OutDir>
+    <IncludePath>$(ProjectDir)\$(ffmpegdir)\include\libavswscale;$(ProjectDir)\$(ffmpegdir)\include\libavutil;$(ProjectDir)\$(ffmpegdir)\include\libavformat;$(ProjectDir)\$(ffmpegdir)\include\libavfilter;$(ProjectDir)\$(ffmpegdir)\include\libavdevice;$(ProjectDir)\$(ffmpegdir)\include;$(ProjectDir)\$(ffmpegdir)\include\libavcodec;$(IncludePath);$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include</IncludePath>
+    <LibraryPath>$(ProjectDir)\$(ffmpegdir)\lib;$(LibraryPath);$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo "Running post build events for OdessaEngineV2Project"
+
+echo "Copying to OdessaGUIProject"
+mkdir "$(SolutionDir)OdessaGUIProject\bin\$(Configuration)"
+echo "copy /Y /V $(ProjectDir)$(Configuration)\$(AssemblyName).dll $(SolutionDir)OdessaGUIProject"
+copy /Y /V "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)OdessaGUIProject\"
+echo "copy /Y /V $(ProjectDir)$(Configuration)\$(AssemblyName).pdb $(SolutionDir)OdessaGUIProject"
+copy /Y /V "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)OdessaGUIProject\"
+copy /Y /V "$(ProjectDir)$(ffmpegdir)\bin\avcodec-*.dll" "$(SolutionDir)OdessaGUIProject\"
+copy /Y /V "$(ProjectDir)$(ffmpegdir)\bin\avformat-*.dll" "$(SolutionDir)OdessaGUIProject\"
+copy /Y /V "$(ProjectDir)$(ffmpegdir)\bin\avutil-*.dll" "$(SolutionDir)OdessaGUIProject\"
+
+if $(Configuration) == Test echo "Copying to TuningProject"
+if $(Configuration) == Test mkdir "$(SolutionDir)TuningProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avcodec-*.dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avformat-*.dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avutil-*.dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+
+if $(Configuration) == Test echo "Copying to TuningScannerProject"
+if $(Configuration) == Test mkdir "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avcodec-*.dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avformat-*.dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avutil-*.dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+
+if $(Configuration) == Test echo "Copying to TestProject"
+if $(Configuration) == Test mkdir "$(SolutionDir)TestProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)TestProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avcodec-*.dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avformat-*.dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avutil-*.dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copying OdessaEngineV2Project output to projects</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>TEST;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo "Running post build events for OdessaEngineV2Project"
+
+echo "Copying to OdessaGUIProject"
+mkdir "$(SolutionDir)OdessaGUIProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)OdessaGUIProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)OdessaGUIProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avcodec-*.dll" "$(SolutionDir)OdessaGUIProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avformat-*.dll" "$(SolutionDir)OdessaGUIProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avutil-*.dll" "$(SolutionDir)OdessaGUIProject\bin\$(Configuration)"
+
+echo "Copying to TuningProject"
+mkdir "$(SolutionDir)TuningProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avcodec-*.dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avformat-*.dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avutil-*.dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+
+echo "Copying to TuningScannerProject"
+mkdir "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avcodec-*.dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avformat-*.dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avutil-*.dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+
+echo "Copying to TestProject"
+mkdir "$(SolutionDir)TestProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)TestProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avcodec-*.dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avformat-*.dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avutil-*.dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copying OdessaEngineV2Project output to projects</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;RELEASE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo "Running post build events for OdessaEngineV2Project"
+
+echo "Copying to OdessaGUIProject"
+mkdir "$(SolutionDir)OdessaGUIProject\bin\$(Configuration)"
+echo "copy /Y /V $(ProjectDir)$(Configuration)\$(AssemblyName).dll $(SolutionDir)OdessaGUIProject"
+copy /Y /V "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)OdessaGUIProject\"
+echo "copy /Y /V $(ProjectDir)$(Configuration)\$(AssemblyName).dll $(SolutionDir)OdessaGUIProject"
+copy /Y /V "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)OdessaGUIProject\"
+copy /Y /V "$(ProjectDir)$(ffmpegdir)\bin\avcodec-*.dll" "$(SolutionDir)OdessaGUIProject"
+copy /Y /V "$(ProjectDir)$(ffmpegdir)\bin\avformat-*.dll" "$(SolutionDir)OdessaGUIProject"
+copy /Y /V "$(ProjectDir)$(ffmpegdir)\bin\avutil-*.dll" "$(SolutionDir)OdessaGUIProject"
+
+if $(Configuration) == Test echo "Copying to TuningProject"
+if $(Configuration) == Test mkdir "$(SolutionDir)TuningProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avcodec-54.dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avformat-54.dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avutil-51.dll" "$(SolutionDir)TuningProject\bin\$(Configuration)"
+
+if $(Configuration) == Test echo "Copying to TuningScannerProject"
+if $(Configuration) == Test mkdir "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avcodec-54.dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avformat-54.dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avutil-51.dll" "$(SolutionDir)TuningScannerProject\bin\$(Configuration)"
+
+if $(Configuration) == Test echo "Copying to TestProject"
+if $(Configuration) == Test mkdir "$(SolutionDir)TestProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(Configuration)\$(AssemblyName).pdb" "$(SolutionDir)TestProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avcodec-54.dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avformat-54.dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+if $(Configuration) == Test copy /Y "$(ProjectDir)$(ffmpegdir)\bin\avutil-51.dll" "$(SolutionDir)TestProject\bin\$(Configuration)"
+</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copying OdessaEngineV2Project output to projects</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Authorization.h" />
+    <ClInclude Include="AVHelper.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Crc32Dynamic.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="OdessaEngineV2Project.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Authorization.cpp" />
+    <ClCompile Include="AVHelper.cpp" />
+    <ClCompile Include="Crc32Dynamic.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="OdessaEngineV2Project.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

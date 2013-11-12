@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: google-fonts.php:1112
+msgid "* CSS WARNING"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:876
+#: google-fonts.php:958
+#: google-fonts.php:999
+#: google-fonts.php:1040
+#: google-fonts.php:1081
+msgid "All (body tags)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:883
+#: google-fonts.php:924
+#: google-fonts.php:965
+#: google-fonts.php:1006
+#: google-fonts.php:1047
+#: google-fonts.php:1088
+msgid "Blockquotes"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1093
+msgid "Custom CSS:*"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:874
+#: google-fonts.php:1079
+msgid "Elements you want to assign this font to:*"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:862
+msgid "Font 1 Options"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:903
+msgid "Font 2 Options"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:944
+msgid "Font 3 Options"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:985
+msgid "Font 4 Options"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1026
+msgid "Font 5 Options"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1067
+msgid "Font 6 Options"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:558
+msgid "Google Font Control Panel"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1107
+msgid "Google Font Directory"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:560
+msgid "Google Fonts plugin page"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:877
+#: google-fonts.php:918
+#: google-fonts.php:959
+#: google-fonts.php:1000
+#: google-fonts.php:1041
+#: google-fonts.php:1082
+msgid "Headline 1 (h1 tags)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:878
+#: google-fonts.php:919
+#: google-fonts.php:960
+#: google-fonts.php:1001
+#: google-fonts.php:1042
+#: google-fonts.php:1083
+msgid "Headline 2 (h2 tags)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:879
+#: google-fonts.php:920
+#: google-fonts.php:961
+#: google-fonts.php:1002
+#: google-fonts.php:1043
+#: google-fonts.php:1084
+msgid "Headline 3 (h3 tags)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:880
+#: google-fonts.php:921
+#: google-fonts.php:962
+#: google-fonts.php:1003
+#: google-fonts.php:1044
+#: google-fonts.php:1085
+msgid "Headline 4 (h4 tags)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:881
+#: google-fonts.php:922
+#: google-fonts.php:963
+#: google-fonts.php:1004
+#: google-fonts.php:1045
+#: google-fonts.php:1086
+msgid "Headline 5 (h5 tags)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:882
+#: google-fonts.php:923
+#: google-fonts.php:964
+#: google-fonts.php:1005
+#: google-fonts.php:1046
+#: google-fonts.php:1087
+msgid "Headline 6 (h6 tags)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:885
+#: google-fonts.php:926
+#: google-fonts.php:967
+#: google-fonts.php:1008
+#: google-fonts.php:1049
+#: google-fonts.php:1090
+msgid "Lists (li tags)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1113
+msgid "Most likely the theme you are using has defined very specific elements in its stylesheet and these may override the generic tags specified above. If you don&rsquo;t see any changes after checking the style boxes above, you will need to enter custom css into the CSS box. An example of CSS that would be more specific would be:"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:868
+msgid "None (Turn off Font 1)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:909
+msgid "None (Turn off Font 2)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:950
+msgid "None (Turn off Font 3)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:991
+msgid "None (Turn off Font 4)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1033
+msgid "None (Turn off Font 5)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1073
+msgid "None (Turn off Font 6)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:884
+#: google-fonts.php:925
+#: google-fonts.php:966
+#: google-fonts.php:1007
+#: google-fonts.php:1048
+#: google-fonts.php:1089
+msgid "Paragraphs (p tags)"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1098
+msgid "Save"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1069
+msgid "Select Font:"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:560
+msgid "Thanks for using Google Fonts, and I hope you like this plugin."
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1104
+msgid "The most common error occurs when a font is specified as \"off\" but has boxes checked beneath it. Make sure that there are no boxes checked beneath a font that you want to be off."
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:560
+msgid "This control panel gives you the ability to control how your Google Fonts fonts are displayed. For more information about this plugin, please visit the"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1106
+msgid "This plugin uses open source fonts that are hosted on Google&rsquo;s servers. For more information about this service, you can visit the"
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1117
+msgid "This would define all paragraphs found within a &lt;div id=&quot;container&quot;&gt;&lt;/div&gt; element. Stylesheets (CSS) can be sensitive and tricky sometimes. If you are new to CSS the <a href=\"http://www.w3schools.com/css/\" title=\"w3schools tutorials\">w3schools tutorials</a> are a great place to start."
+msgstr ""
+
+#. Text in echo
+#: google-fonts.php:1103
+msgid "Troubleshooting"
+msgstr ""

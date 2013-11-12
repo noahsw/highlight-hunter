@@ -1,0 +1,25 @@
+a
+{
+	color: #C90000;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #8D0000;
+}
+
+#menu_wrapper .nav ul li a.hover, #menu_wrapper .nav ul li a:hover, #menu_wrapper .menu-main-menu-container .nav li a.hover, #menu_wrapper .menu-main-menu-container .nav li a:hover
+{
+	color: #C90000;
+}
+
+#menu_wrapper .menu-main-menu-container .nav li.current-menu-item a
+{
+	color: #C90000;
+}
+
+input[type=submit], input[type=button], a.button, a.button:hover, a.button:active
+{
+	background: transparent url('../../images/skins/red_button_bg.png') no-repeat;
+}

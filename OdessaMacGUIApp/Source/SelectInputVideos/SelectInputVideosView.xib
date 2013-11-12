@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
+	<data>
+		<int key="IBDocument.SystemTarget">1060</int>
+		<string key="IBDocument.SystemVersion">11G63b</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
+		<string key="IBDocument.AppKitVersion">1138.51</string>
+		<string key="IBDocument.HIToolboxVersion">569.00</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
+			<string key="NS.object.0">2844</string>
+		</object>
+		<array key="IBDocument.IntegratedClassDependencies">
+			<string>NSArrayController</string>
+			<string>NSButton</string>
+			<string>NSButtonCell</string>
+			<string>NSCollectionView</string>
+			<string>NSCollectionViewItem</string>
+			<string>NSCustomObject</string>
+			<string>NSCustomView</string>
+			<string>NSImageCell</string>
+			<string>NSImageView</string>
+			<string>NSScrollView</string>
+			<string>NSScroller</string>
+			<string>NSTextField</string>
+			<string>NSTextFieldCell</string>
+			<string>NSView</string>
+			<string>NSViewController</string>
+		</array>
+		<array key="IBDocument.PluginDependencies">
+			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+		</array>
+		<object class="NSMutableDictionary" key="IBDocument.Metadata">
+			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
+			<integer value="1" key="NS.object.0"/>
+		</object>
+		<array class="NSMutableArray" key="IBDocument.RootObjects" id="1000">
+			<object class="NSCustomObject" id="1001">
+				<string key="NSClassName">SelectInputVideosViewController</string>
+			</object>
+			<object class="NSCustomObject" id="1003">
+				<string key="NSClassName">FirstResponder</string>
+			</object>
+			<object class="NSCustomObject" id="1004">
+				<string key="NSClassName">NSApplication</string>
+			</object>
+			<object class="NSCustomView" id="1005">
+				<reference key="NSNextResponder"/>
+				<int key="NSvFlags">274</int>
+				<array class="NSMutableArray" key="NSSubviews">
+					<object class="NSCustomView" id="4631065">
+						<reference key="NSNextResponder" ref="1005"/>
+						<int key="NSvFlags">289</int>
+						<string key="NSFrame">{{644, 51}, {193, 144}}</string>
+						<reference key="NSSuperview" ref="1005"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="764211670"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<string key="NSClassName">NSView</string>
+					</object>
+					<object class="NSCustomView" id="365128051">
+						<reference key="NSNextResponder" ref="1005"/>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{287, 310}, {203, 184}}</string>
+						<reference key="NSSuperview" ref="1005"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="4631065"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<string key="NSClassName">NSView</string>
+					</object>
+					<object class="NSCustomView" id="570317704">
+						<reference key="NSNextResponder" ref="1005"/>
+						<int key="NSvFlags">301</int>
+						<string key="NSFrame">{{200, 115}, {436, 338}}</string>
+						<reference key="NSSuperview" ref="1005"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="365128051"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<string key="NSClassName">BigDropHereView</string>
+					</object>
+					<object class="NSButton" id="764211670">
+						<reference key="NSNextResponder" ref="1005"/>
+						<int key="NSvFlags">-2147483359</int>
+						<string key="NSFrame">{{644, 0}, {192, 43}}</string>
+						<reference key="NSSuperview" ref="1005"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
+						<int key="NSViewLayerContentsRedrawPolicy">2</int>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="NSEnabled">YES</bool>
+						<object class="NSButtonCell" key="NSCell" id="418392771">
+							<int key="NSCellFlags">67108864</int>
+							<int key="NSCellFlags2">134217728</int>
+							<string key="NSContents"/>
+							<object class="NSFont" key="NSSupport" id="576783543">
+								<string key="NSName">LucidaGrande</string>
+								<double key="NSSize">13</double>
+								<int key="NSfFlags">1044</int>
+							</object>
+							<string key="NSCellIdentifier">_NS:9</string>
+							<reference key="NSControlView" ref="764211670"/>
+							<int key="NSButtonFlags">138690560</int>
+							<int key="NSButtonFlags2">6</int>
+							<object class="NSCustomResource" key="NSNormalImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">button-green-scanvideos-normal</string>
+							</object>
+							<object class="NSCustomResource" key="NSAlternateImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">button-green-scanvideos-click</string>
+							</object>
+							<string key="NSAlternateContents"/>
+							<string key="NSKeyEquivalent"/>
+							<int key="NSPeriodicDelay">200</int>
+							<int key="NSPeriodicInterval">25</int>
+						</object>
+					</object>
+					<object class="NSScrollView" id="49441055">
+						<reference key="NSNextResponder" ref="1005"/>
+						<int key="NSvFlags">274</int>
+						<array class="NSMutableArray" key="NSSubviews">
+							<object class="NSClipView" id="658365617">
+								<reference key="NSNextResponder" ref="49441055"/>
+								<int key="NSvFlags">2304</int>
+								<array class="NSMutableArray" key="NSSubviews">
+									<object class="NSCollectionView" id="596399808">
+										<reference key="NSNextResponder" ref="658365617"/>
+										<int key="NSvFlags">274</int>
+										<string key="NSFrameSize">{834, 436}</string>
+										<reference key="NSSuperview" ref="658365617"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="1042488981"/>
+										<int key="NSViewLayerContentsRedrawPolicy">2</int>
+										<string key="NSReuseIdentifierKey">_NS:80</string>
+										<string key="NSMinGridSize">{0, 0}</string>
+										<string key="NSMaxGridSize">{0, 0}</string>
+										<int key="NSMaxNumberOfGridRows">0</int>
+										<int key="NSMaxNumberOfGridColumns">0</int>
+										<array key="NSBackgroundColors">
+											<object class="NSColor" id="272901259">
+												<int key="NSColorSpace">2</int>
+												<bytes key="NSRGB">MC4zMzMzMzMzNDMzIDAuMzMzMzMzMzQzMyAwLjMzMzMzMzM0MzMAA</bytes>
+											</object>
+										</array>
+										<bool key="NSAllowsMultipleSelection">YES</bool>
+										<int key="NSDraggingSourceMaskForLocal">-1</int>
+										<int key="NSDraggingSourceMaskForNonLocal">0</int>
+									</object>
+								</array>
+								<string key="NSFrame">{{1, 1}, {834, 436}}</string>
+								<reference key="NSSuperview" ref="49441055"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="596399808"/>
+								<int key="NSViewLayerContentsRedrawPolicy">2</int>
+								<string key="NSReuseIdentifierKey">_NS:78</string>
+								<reference key="NSDocView" ref="596399808"/>
+								<object class="NSColor" key="NSBGColor">
+									<int key="NSColorSpace">2</int>
+									<bytes key="NSRGB">MC4zMzMzMzMzNDMzIDAuMzMzMzMzMzQzMyAwLjMzMzMzMzM0MzMAA</bytes>
+								</object>
+								<int key="NScvFlags">2</int>
+							</object>
+							<object class="NSScroller" id="1042488981">
+								<reference key="NSNextResponder" ref="49441055"/>
+								<int key="NSvFlags">-2147483392</int>
+								<string key="NSFrame">{{234, 1}, {15, 143}}</string>
+								<reference key="NSSuperview" ref="49441055"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="459220021"/>
+								<string key="NSReuseIdentifierKey">_NS:82</string>
+								<reference key="NSTarget" ref="49441055"/>
+								<string key="NSAction">_doScroller:</string>
+								<double key="NSCurValue">1</double>
+								<double key="NSPercent">0.89655172824859619</double>
+							</object>
+							<object class="NSScroller" id="459220021">
+								<reference key="NSNextResponder" ref="49441055"/>
+								<int key="NSvFlags">-2147483392</int>
+								<string key="NSFrame">{{1, 144}, {233, 15}}</string>
+								<reference key="NSSuperview" ref="49441055"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="570317704"/>
+								<string key="NSReuseIdentifierKey">_NS:91</string>
+								<int key="NSsFlags">1</int>
+								<reference key="NSTarget" ref="49441055"/>
+								<string key="NSAction">_doScroller:</string>
+								<double key="NSPercent">0.63157892227172852</double>
+							</object>
+						</array>
+						<string key="NSFrame">{{0, 60}, {836, 438}}</string>
+						<reference key="NSSuperview" ref="1005"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="658365617"/>
+						<int key="NSViewLayerContentsRedrawPolicy">2</int>
+						<string key="NSReuseIdentifierKey">_NS:76</string>
+						<int key="NSsFlags">133681</int>
+						<reference key="NSVScroller" ref="1042488981"/>
+						<reference key="NSHScroller" ref="459220021"/>
+						<reference key="NSContentView" ref="658365617"/>
+					</object>
+				</array>
+				<string key="NSFrameSize">{836, 498}</string>
+				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
+				<reference key="NSNextKeyView" ref="49441055"/>
+				<int key="NSViewLayerContentsRedrawPolicy">2</int>
+				<string key="NSClassName">NSView</string>
+			</object>
+			<object class="NSCollectionViewItem" id="573108288"/>
+			<object class="NSView" id="378474224">
+				<reference key="NSNextResponder"/>
+				<int key="NSvFlags">256</int>
+				<array class="NSMutableArray" key="NSSubviews">
+					<object class="NSTextField" id="485161931">
+						<reference key="NSNextResponder" ref="378474224"/>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{7, 13}, {278, 24}}</string>
+						<reference key="NSSuperview" ref="378474224"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
+						<string key="NSReuseIdentifierKey">_NS:1535</string>
+						<bool key="NSEnabled">YES</bool>
+						<object class="NSTextFieldCell" key="NSCell" id="926129679">
+							<int key="NSCellFlags">68157504</int>
+							<int key="NSCellFlags2">272630784</int>
+							<string key="NSContents">File title</string>
+							<object class="NSFont" key="NSSupport">
+								<string key="NSName">HelveticaNeue</string>
+								<double key="NSSize">16</double>
+								<int key="NSfFlags">16</int>
+							</object>
+							<string key="NSCellIdentifier">_NS:1535</string>
+							<reference key="NSControlView" ref="485161931"/>
+							<object class="NSColor" key="NSBackgroundColor">
+								<int key="NSColorSpace">6</int>
+								<string key="NSCatalogName">System</string>
+								<string key="NSColorName">controlColor</string>
+								<object class="NSColor" key="NSColor">
+									<int key="NSColorSpace">3</int>
+									<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
+								</object>
+							</object>
+							<object class="NSColor" key="NSTextColor">
+								<int key="NSColorSpace">1</int>
+								<bytes key="NSRGB">MC44IDAuOCAwLjgAA</bytes>
+							</object>
+						</object>
+					</object>
+					<object class="NSImageView" id="432896043">
+						<reference key="NSNextResponder" ref="378474224"/>
+						<int key="NSvFlags">268</int>
+						<set class="NSMutableSet" key="NSDragTypes">
+							<string>Apple PDF pasteboard type</string>
+							<string>Apple PICT pasteboard type</string>
+							<string>Apple PNG pasteboard type</string>
+							<string>NSFilenamesPboardType</string>
+							<string>NeXT Encapsulated PostScript v1.2 pasteboard type</string>
+							<string>NeXT TIFF v4.0 pasteboard type</string>
+						</set>
+						<string key="NSFrame">{{10, 39}, {272, 153}}</string>
+						<reference key="NSSuperview" ref="378474224"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="991706431"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="NSEnabled">YES</bool>
+						<object class="NSImageCell" key="NSCell" id="62665979">
+							<int key="NSCellFlags">134217728</int>
+							<int key="NSCellFlags2">33554432</int>
+							<string key="NSCellIdentifier">_NS:9</string>
+							<int key="NSAlign">0</int>
+							<int key="NSScale">2</int>
+							<int key="NSStyle">0</int>
+							<bool key="NSAnimates">NO</bool>
+						</object>
+						<bool key="NSEditable">YES</bool>
+					</object>
+					<object class="NSImageView" id="991706431">
+						<reference key="NSNextResponder" ref="378474224"/>
+						<int key="NSvFlags">268</int>
+						<set class="NSMutableSet" key="NSDragTypes">
+							<string>Apple PDF pasteboard type</string>
+							<string>Apple PICT pasteboard type</string>
+							<string>Apple PNG pasteboard type</string>
+							<string>NSFilenamesPboardType</string>
+							<string>NeXT Encapsulated PostScript v1.2 pasteboard type</string>
+							<string>NeXT TIFF v4.0 pasteboard type</string>
+						</set>
+						<string key="NSFrame">{{10, 45}, {272, 140}}</string>
+						<reference key="NSSuperview" ref="378474224"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="289455698"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="NSEnabled">YES</bool>
+						<object class="NSImageCell" key="NSCell" id="879383569">
+							<int key="NSCellFlags">134217728</int>
+							<int key="NSCellFlags2">33554432</int>
+							<object class="NSCustomResource" key="NSContents">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">select-droptarget-small</string>
+							</object>
+							<string key="NSCellIdentifier">_NS:9</string>
+							<int key="NSAlign">0</int>
+							<int key="NSScale">0</int>
+							<int key="NSStyle">0</int>
+							<bool key="NSAnimates">NO</bool>
+						</object>
+						<bool key="NSEditable">YES</bool>
+					</object>
+					<object class="NSButton" id="33849771">
+						<reference key="NSNextResponder" ref="378474224"/>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{116, 118}, {101, 15}}</string>
+						<reference key="NSSuperview" ref="378474224"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="485161931"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="NSEnabled">YES</bool>
+						<object class="NSButtonCell" key="NSCell" id="427030229">
+							<int key="NSCellFlags">67108864</int>
+							<int key="NSCellFlags2">134217728</int>
+							<string key="NSContents">Browse computer...</string>
+							<object class="NSFont" key="NSSupport">
+								<string key="NSName">HelveticaNeue</string>
+								<double key="NSSize">11</double>
+								<int key="NSfFlags">16</int>
+							</object>
+							<string key="NSCellIdentifier">_NS:9</string>
+							<reference key="NSControlView" ref="33849771"/>
+							<int key="NSButtonFlags">134365184</int>
+							<int key="NSButtonFlags2">134</int>
+							<string key="NSAlternateContents"/>
+							<string key="NSKeyEquivalent"/>
+							<int key="NSPeriodicDelay">200</int>
+							<int key="NSPeriodicInterval">25</int>
+						</object>
+					</object>
+					<object class="NSButton" id="289455698">
+						<reference key="NSNextResponder" ref="378474224"/>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{13, 168}, {20, 21}}</string>
+						<reference key="NSSuperview" ref="378474224"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="33849771"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="NSEnabled">YES</bool>
+						<object class="NSButtonCell" key="NSCell" id="291751236">
+							<int key="NSCellFlags">67108864</int>
+							<int key="NSCellFlags2">134217728</int>
+							<string key="NSContents"/>
+							<reference key="NSSupport" ref="576783543"/>
+							<string key="NSCellIdentifier">_NS:9</string>
+							<reference key="NSControlView" ref="289455698"/>
+							<int key="NSButtonFlags">138690560</int>
+							<int key="NSButtonFlags2">134</int>
+							<object class="NSCustomResource" key="NSNormalImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">review-video-hover-deleteicon</string>
+							</object>
+							<string key="NSAlternateContents"/>
+							<string key="NSKeyEquivalent"/>
+							<int key="NSPeriodicDelay">200</int>
+							<int key="NSPeriodicInterval">25</int>
+						</object>
+					</object>
+				</array>
+				<string key="NSFrameSize">{292, 204}</string>
+				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
+				<reference key="NSNextKeyView" ref="432896043"/>
+			</object>
+			<object class="NSArrayController" id="998829902">
+				<bool key="NSEditable">YES</bool>
+				<object class="_NSManagedProxy" key="_NSManagedProxy"/>
+				<bool key="NSAvoidsEmptySelection">YES</bool>
+				<bool key="NSPreservesSelection">YES</bool>
+				<bool key="NSSelectsInsertedObjects">YES</bool>
+				<bool key="NSFilterRestrictsInsertion">YES</bool>
+				<bool key="NSClearsFilterPredicateOnInsertion">YES</bool>
+			</object>
+			<object class="NSViewController" id="384207008"/>
+			<object class="NSViewController" id="523083631"/>
+			<object class="NSViewController" id="57935599"/>
+			<object class="NSViewController" id="975580978"/>
+		</array>
+		<object class="IBObjectContainer" key="IBDocument.Objects">
+			<array class="NSMutableArray" key="connectionRecords">
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">view</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="1005"/>
+					</object>
+					<int key="connectionID">2</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">arrayController</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="998829902"/>
+					</object>
+					<int key="connectionID">17</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">inputFilesDropView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="49441055"/>
+					</object>
+					<int key="connectionID">27</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">scanAllVideos:</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="764211670"/>
+					</object>
+					<int key="connectionID">48</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">scanAllVideosButton</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="764211670"/>
+					</object>
+					<int key="connectionID">49</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">scanSampleVideoViewController</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="384207008"/>
+					</object>
+					<int key="connectionID">53</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">bigDropHereView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="570317704"/>
+					</object>
+					<int key="connectionID">59</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">bigDropHereViewController</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="523083631"/>
+					</object>
+					<int key="connectionID">60</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">inputFilesCollectionView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="596399808"/>
+					</object>
+					<int key="connectionID">90</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">inputVideoThumbnailViewController</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="573108288"/>
+					</object>
+					<int key="connectionID">91</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">inputVideoThumbnailView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="378474224"/>
+					</object>
+					<int key="connectionID">99</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">sampleVideoTutorialBubbleController</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="57935599"/>
+					</object>
+					<int key="connectionID">115</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">sampleVideoTutorialBubble</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="365128051"/>
+					</object>
+					<int key="connectionID">116</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">scanButtonTutorialBubble</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="4631065"/>
+					</object>
+					<int key="connectionID">118</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">scanButtonTutorialBubbleController</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="975580978"/>
+					</object>
+					<int key="connectionID">120</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">itemPrototype</string>
+						<reference key="source" ref="596399808"/>
+						<reference key="destination" ref="573108288"/>
+					</object>
+					<int key="connectionID">13</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">content: arrangedObjects</string>
+						<reference key="source" ref="596399808"/>
+						<reference key="destination" ref="998829902"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="596399808"/>
+							<reference key="NSDestination" ref="998829902"/>
+							<string key="NSLabel">content: arrangedObjects</string>
+							<string key="NSBinding">content</string>
+							<string key="NSKeyPath">arrangedObjects</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">19</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">view</string>
+						<reference key="source" ref="573108288"/>
+						<reference key="destination" ref="378474224"/>
+					</object>
+					<int key="connectionID">14</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">browseComputer:</string>
+						<reference key="source" ref="573108288"/>
+						<reference key="destination" ref="33849771"/>
+					</object>
+					<int key="connectionID">92</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">browseComputerButton</string>
+						<reference key="source" ref="573108288"/>
+						<reference key="destination" ref="33849771"/>
+					</object>
+					<int key="connectionID">93</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">dropImage</string>
+						<reference key="source" ref="573108288"/>
+						<reference key="destination" ref="991706431"/>
+					</object>
+					<int key="connectionID">94</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">removeButton</string>
+						<reference key="source" ref="573108288"/>
+						<reference key="destination" ref="289455698"/>
+					</object>
+					<int key="connectionID">102</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">removeVideo:</string>
+						<reference key="source" ref="573108288"/>
+						<reference key="destination" ref="289455698"/>
+					</object>
+					<int key="connectionID">103</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">thumbnailImage</string>
+						<reference key="source" ref="378474224"/>
+						<reference key="destination" ref="432896043"/>
+					</object>
+					<int key="connectionID">71</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">titleField</string>
+						<reference key="source" ref="378474224"/>
+						<reference key="destination" ref="485161931"/>
+					</object>
+					<int key="connectionID">72</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: representedObject.title</string>
+						<reference key="source" ref="485161931"/>
+						<reference key="destination" ref="573108288"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="485161931"/>
+							<reference key="NSDestination" ref="573108288"/>
+							<string key="NSLabel">value: representedObject.title</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">representedObject.title</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">28</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">hidden: representedObject.isSmallDropHereControl</string>
+						<reference key="source" ref="485161931"/>
+						<reference key="destination" ref="573108288"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="485161931"/>
+							<reference key="NSDestination" ref="573108288"/>
+							<string key="NSLabel">hidden: representedObject.isSmallDropHereControl</string>
+							<string key="NSBinding">hidden</string>
+							<string key="NSKeyPath">representedObject.isSmallDropHereControl</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">77</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: representedObject.thumbnailImage</string>
+						<reference key="source" ref="432896043"/>
+						<reference key="destination" ref="573108288"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="432896043"/>
+							<reference key="NSDestination" ref="573108288"/>
+							<string key="NSLabel">value: representedObject.thumbnailImage</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">representedObject.thumbnailImage</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">40</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">hidden: representedObject.isSmallDropHereControl</string>
+						<reference key="source" ref="432896043"/>
+						<reference key="destination" ref="573108288"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="432896043"/>
+							<reference key="NSDestination" ref="573108288"/>
+							<string key="NSLabel">hidden: representedObject.isSmallDropHereControl</string>
+							<string key="NSBinding">hidden</string>
+							<string key="NSKeyPath">representedObject.isSmallDropHereControl</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">75</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">hidden: representedObject.isSmallDropHereControl</string>
+						<reference key="source" ref="991706431"/>
+						<reference key="destination" ref="573108288"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="991706431"/>
+							<reference key="NSDestination" ref="573108288"/>
+							<string key="NSLabel">hidden: representedObject.isSmallDropHereControl</string>
+							<string key="NSBinding">hidden</string>
+							<string key="NSKeyPath">representedObject.isSmallDropHereControl</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValueTransformerName</string>
+								<string key="NS.object.0">NSNegateBoolean</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">98</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">hidden: representedObject.isSmallDropHereControl</string>
+						<reference key="source" ref="33849771"/>
+						<reference key="destination" ref="573108288"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="33849771"/>
+							<reference key="NSDestination" ref="573108288"/>
+							<string key="NSLabel">hidden: representedObject.isSmallDropHereControl</string>
+							<string key="NSBinding">hidden</string>
+							<string key="NSKeyPath">representedObject.isSmallDropHereControl</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValueTransformerName</string>
+								<string key="NS.object.0">NSNegateBoolean</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">88</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">hidden: representedObject.showRemoveButton</string>
+						<reference key="source" ref="289455698"/>
+						<reference key="destination" ref="573108288"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="289455698"/>
+							<reference key="NSDestination" ref="573108288"/>
+							<string key="NSLabel">hidden: representedObject.showRemoveButton</string>
+							<string key="NSBinding">hidden</string>
+							<string key="NSKeyPath">representedObject.showRemoveButton</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValueTransformerName</string>
+								<string key="NS.object.0">NSNegateBoolean</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">112</int>
+				</object>
+			</array>
+			<object class="IBMutableOrderedSet" key="objectRecords">
+				<array key="orderedObjects">
+					<object class="IBObjectRecord">
+						<int key="objectID">0</int>
+						<array key="object" id="0"/>
+						<reference key="children" ref="1000"/>
+						<nil key="parent"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-2</int>
+						<reference key="object" ref="1001"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">File's Owner</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-1</int>
+						<reference key="object" ref="1003"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">First Responder</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-3</int>
+						<reference key="object" ref="1004"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Application</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1</int>
+						<reference key="object" ref="1005"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="49441055"/>
+							<reference ref="764211670"/>
+							<reference ref="570317704"/>
+							<reference ref="4631065"/>
+							<reference ref="365128051"/>
+						</array>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Main view</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">7</int>
+						<reference key="object" ref="49441055"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="596399808"/>
+							<reference ref="459220021"/>
+							<reference ref="1042488981"/>
+						</array>
+						<reference key="parent" ref="1005"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">8</int>
+						<reference key="object" ref="596399808"/>
+						<reference key="parent" ref="49441055"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">9</int>
+						<reference key="object" ref="459220021"/>
+						<reference key="parent" ref="49441055"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">10</int>
+						<reference key="object" ref="1042488981"/>
+						<reference key="parent" ref="49441055"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">11</int>
+						<reference key="object" ref="573108288"/>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">12</int>
+						<reference key="object" ref="378474224"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="432896043"/>
+							<reference ref="485161931"/>
+							<reference ref="991706431"/>
+							<reference ref="33849771"/>
+							<reference ref="289455698"/>
+						</array>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Thumbnail view</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">16</int>
+						<reference key="object" ref="998829902"/>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">20</int>
+						<reference key="object" ref="485161931"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="926129679"/>
+						</array>
+						<reference key="parent" ref="378474224"/>
+						<string key="objectName">Title</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">21</int>
+						<reference key="object" ref="926129679"/>
+						<reference key="parent" ref="485161931"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">22</int>
+						<reference key="object" ref="432896043"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="62665979"/>
+						</array>
+						<reference key="parent" ref="378474224"/>
+						<string key="objectName">Thumbnail image</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">23</int>
+						<reference key="object" ref="62665979"/>
+						<reference key="parent" ref="432896043"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">43</int>
+						<reference key="object" ref="764211670"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="418392771"/>
+						</array>
+						<reference key="parent" ref="1005"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">44</int>
+						<reference key="object" ref="418392771"/>
+						<reference key="parent" ref="764211670"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">52</int>
+						<reference key="object" ref="384207008"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Sample Video Button Controller</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">57</int>
+						<reference key="object" ref="570317704"/>
+						<reference key="parent" ref="1005"/>
+						<string key="objectName">Big Drop Here View</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">58</int>
+						<reference key="object" ref="523083631"/>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">78</int>
+						<reference key="object" ref="991706431"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="879383569"/>
+						</array>
+						<reference key="parent" ref="378474224"/>
+						<string key="objectName">Drop Image View</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">79</int>
+						<reference key="object" ref="879383569"/>
+						<reference key="parent" ref="991706431"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">83</int>
+						<reference key="object" ref="33849771"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="427030229"/>
+						</array>
+						<reference key="parent" ref="378474224"/>
+						<string key="objectName">Browse Computer Button</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">84</int>
+						<reference key="object" ref="427030229"/>
+						<reference key="parent" ref="33849771"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">100</int>
+						<reference key="object" ref="289455698"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="291751236"/>
+						</array>
+						<reference key="parent" ref="378474224"/>
+						<string key="objectName">Delete Button</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">101</int>
+						<reference key="object" ref="291751236"/>
+						<reference key="parent" ref="289455698"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">113</int>
+						<reference key="object" ref="365128051"/>
+						<reference key="parent" ref="1005"/>
+						<string key="objectName">Sample video tutorial bubble</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">114</int>
+						<reference key="object" ref="57935599"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Sample Video Tutorial Bubble Controller</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">117</int>
+						<reference key="object" ref="4631065"/>
+						<reference key="parent" ref="1005"/>
+						<string key="objectName">Scan button tutorial bubble</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">119</int>
+						<reference key="object" ref="975580978"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Scan Button Tutorial Bubble Controller</string>
+					</object>
+				</array>
+			</object>
+			<dictionary class="NSMutableDictionary" key="flattenedProperties">
+				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="-3.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="1.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="10.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="100.CustomClassName">HoverButton</string>
+				<string key="100.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="101.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="11.CustomClassName">InputVideoThumbnailViewController</string>
+				<string key="11.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="113.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="114.CustomClassName">TutorialBubbleController</string>
+				<string key="114.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="117.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="119.CustomClassName">TutorialBubbleController</string>
+				<string key="119.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="12.CustomClassName">InputVideoThumbnailView</string>
+				<string key="12.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="16.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="20.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="21.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="22.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="23.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="43.CustomClassName">HoverButton</string>
+				<string key="43.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="44.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="52.CustomClassName">IconButtonController</string>
+				<string key="52.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="57.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="58.CustomClassName">BigDropHereViewController</string>
+				<string key="58.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="7.CustomClassName">InputFilesDropView</string>
+				<string key="7.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<real value="19" key="7.IBViewIntegration.shadowBlurRadius"/>
+				<string key="78.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="79.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="8.CustomClassName">InputFilesCollectionView</string>
+				<reference key="8.IBCollectionViewIntegration.primaryColor" ref="272901259"/>
+				<string key="8.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<real value="14" key="8.IBViewIntegration.shadowBlurRadius"/>
+				<object class="NSColor" key="8.IBViewIntegration.shadowColor">
+					<int key="NSColorSpace">3</int>
+					<bytes key="NSWhite">MAA</bytes>
+				</object>
+				<real value="0.0" key="8.IBViewIntegration.shadowOffsetHeight"/>
+				<real value="0.0" key="8.IBViewIntegration.shadowOffsetWidth"/>
+				<string key="83.CustomClassName">TextHoverButton</string>
+				<string key="83.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="84.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="9.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+			</dictionary>
+			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
+			<nil key="activeLocalization"/>
+			<dictionary class="NSMutableDictionary" key="localizations"/>
+			<nil key="sourceID"/>
+			<int key="maxID">120</int>
+		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">BigDropHereImageView</string>
+					<string key="superclassName">NSImageView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/BigDropHereImageView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">BigDropHereView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/BigDropHereView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">BigDropHereViewController</string>
+					<string key="superclassName">NSViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="browseComputer:">id</string>
+						<string key="selectFromCamera:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="browseComputer:">
+							<string key="name">browseComputer:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="selectFromCamera:">
+							<string key="name">selectFromCamera:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="bigDropHereView">BigDropHereView</string>
+						<string key="browseComputerButton">HoverButton</string>
+						<string key="dropHereImage">BigDropHereImageView</string>
+						<string key="selectFromCameraButton">HoverButton</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="bigDropHereView">
+							<string key="name">bigDropHereView</string>
+							<string key="candidateClassName">BigDropHereView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="browseComputerButton">
+							<string key="name">browseComputerButton</string>
+							<string key="candidateClassName">HoverButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="dropHereImage">
+							<string key="name">dropHereImage</string>
+							<string key="candidateClassName">BigDropHereImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="selectFromCameraButton">
+							<string key="name">selectFromCameraButton</string>
+							<string key="candidateClassName">HoverButton</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/BigDropHereViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">HoverButton</string>
+					<string key="superclassName">NSButton</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/HoverButton.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">IconButton</string>
+					<string key="superclassName">NSButton</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/IconButton.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">IconButtonController</string>
+					<string key="superclassName">NSViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">takeAction:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">takeAction:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">takeAction:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="button">IconButton</string>
+						<string key="iconImage">IconButton</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="button">
+							<string key="name">button</string>
+							<string key="candidateClassName">IconButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="iconImage">
+							<string key="name">iconImage</string>
+							<string key="candidateClassName">IconButton</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/IconButtonController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">InputFilesCollectionView</string>
+					<string key="superclassName">NSCollectionView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/InputFilesCollectionView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">InputFilesDropView</string>
+					<string key="superclassName">NSScrollView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/InputFilesDropView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">InputVideoThumbnailView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/InputVideoThumbnailView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">InputVideoThumbnailViewController</string>
+					<string key="superclassName">NSCollectionViewItem</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="browseComputer:">id</string>
+						<string key="removeVideo:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="browseComputer:">
+							<string key="name">browseComputer:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="removeVideo:">
+							<string key="name">removeVideo:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="browseComputerButton">TextHoverButton</string>
+						<string key="dropImage">NSImageView</string>
+						<string key="removeButton">HoverButton</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="browseComputerButton">
+							<string key="name">browseComputerButton</string>
+							<string key="candidateClassName">TextHoverButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="dropImage">
+							<string key="name">dropImage</string>
+							<string key="candidateClassName">NSImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="removeButton">
+							<string key="name">removeButton</string>
+							<string key="candidateClassName">HoverButton</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/InputVideoThumbnailViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SelectInputVideosViewController</string>
+					<string key="superclassName">NSViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">scanAllVideos:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">scanAllVideos:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">scanAllVideos:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="arrayController">NSArrayController</string>
+						<string key="bigDropHereView">BigDropHereView</string>
+						<string key="bigDropHereViewController">BigDropHereViewController</string>
+						<string key="inputFilesCollectionView">InputFilesCollectionView</string>
+						<string key="inputFilesDropView">InputFilesDropView</string>
+						<string key="inputVideoThumbnailView">InputVideoThumbnailView</string>
+						<string key="inputVideoThumbnailViewController">InputVideoThumbnailViewController</string>
+						<string key="sampleVideoTutorialBubble">NSView</string>
+						<string key="sampleVideoTutorialBubbleController">TutorialBubbleController</string>
+						<string key="scanAllVideosButton">HoverButton</string>
+						<string key="scanButtonTutorialBubble">NSView</string>
+						<string key="scanButtonTutorialBubbleController">TutorialBubbleController</string>
+						<string key="scanSampleVideoViewController">IconButtonController</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="arrayController">
+							<string key="name">arrayController</string>
+							<string key="candidateClassName">NSArrayController</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="bigDropHereView">
+							<string key="name">bigDropHereView</string>
+							<string key="candidateClassName">BigDropHereView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="bigDropHereViewController">
+							<string key="name">bigDropHereViewController</string>
+							<string key="candidateClassName">BigDropHereViewController</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="inputFilesCollectionView">
+							<string key="name">inputFilesCollectionView</string>
+							<string key="candidateClassName">InputFilesCollectionView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="inputFilesDropView">
+							<string key="name">inputFilesDropView</string>
+							<string key="candidateClassName">InputFilesDropView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="inputVideoThumbnailView">
+							<string key="name">inputVideoThumbnailView</string>
+							<string key="candidateClassName">InputVideoThumbnailView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="inputVideoThumbnailViewController">
+							<string key="name">inputVideoThumbnailViewController</string>
+							<string key="candidateClassName">InputVideoThumbnailViewController</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="sampleVideoTutorialBubble">
+							<string key="name">sampleVideoTutorialBubble</string>
+							<string key="candidateClassName">NSView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="sampleVideoTutorialBubbleController">
+							<string key="name">sampleVideoTutorialBubbleController</string>
+							<string key="candidateClassName">TutorialBubbleController</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="scanAllVideosButton">
+							<string key="name">scanAllVideosButton</string>
+							<string key="candidateClassName">HoverButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="scanButtonTutorialBubble">
+							<string key="name">scanButtonTutorialBubble</string>
+							<string key="candidateClassName">NSView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="scanButtonTutorialBubbleController">
+							<string key="name">scanButtonTutorialBubbleController</string>
+							<string key="candidateClassName">TutorialBubbleController</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="scanSampleVideoViewController">
+							<string key="name">scanSampleVideoViewController</string>
+							<string key="candidateClassName">IconButtonController</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/SelectInputVideosViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">TextHoverButton</string>
+					<string key="superclassName">NSButton</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/TextHoverButton.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">TutorialBubbleController</string>
+					<string key="superclassName">NSViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">takeAction:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">takeAction:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">takeAction:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="bubbleTextField">NSTextField</string>
+						<string key="nextButton">HoverButton</string>
+						<string key="tooltipImage">NSImageView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="bubbleTextField">
+							<string key="name">bubbleTextField</string>
+							<string key="candidateClassName">NSTextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="nextButton">
+							<string key="name">nextButton</string>
+							<string key="candidateClassName">HoverButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="tooltipImage">
+							<string key="name">tooltipImage</string>
+							<string key="candidateClassName">NSImageView</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/TutorialBubbleController.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
+		<int key="IBDocument.localizationMode">0</int>
+		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
+			<real value="1060" key="NS.object.0"/>
+		</object>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
+			<real value="4400" key="NS.object.0"/>
+		</object>
+		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
+		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="button-green-scanvideos-click">{192, 43}</string>
+			<string key="button-green-scanvideos-normal">{192, 43}</string>
+			<string key="review-video-hover-deleteicon">{20, 21}</string>
+			<string key="select-droptarget-small">{272, 140}</string>
+		</dictionary>
+	</data>
+</archive>
