@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'OdessaGUIProject-Mac' target in the 'OdessaGUIProject-Mac' project
+//
+
+#include "TargetConditionals.h"
+
+#define __declspec(x) 
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
+
