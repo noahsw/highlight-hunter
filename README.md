@@ -12,7 +12,8 @@ Highlight Hunter is an app for Mac and PC that helps you quickly find the highli
 
 ## Getting Started on PC 
 1. Open `OdessaProductionSolution.sln` in Visual Studio 2012
-2. Build and run the app
+2. Set `OdessaGUIProject` as startup project
+3. Build and run the app
 
 
 ## Contributing
