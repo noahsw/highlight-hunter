@@ -310,8 +310,6 @@ NSString *const kReviewView = @"ReviewHighlightsView";
     
     DDLogInfo(@"called");
     
-    [[FRFeedbackReporter sharedReporter] setDelegate:self];
-    
     [self handleScreenResolution];
     
     NSUserDefaults *standardUserDefaults = [NSUserDefaults standardUserDefaults];
@@ -717,10 +715,6 @@ NSString *const kReviewView = @"ReviewHighlightsView";
     
 }
 
-- (IBAction)sendFeedback:(id)sender {
-    [[FRFeedbackReporter sharedReporter] reportFeedback];
-}
-
 
 
 
@@ -831,45 +825,6 @@ NSString *const kReviewView = @"ReviewHighlightsView";
         [self scanStarted];
     }
     
-}
-
-
-- (NSDictionary *)customParametersForFeedbackReport
-{
-    DDLogInfo(@"adding custom parameters");
-    
-    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    
-    @try
-    { // we should never crash during this
-    
-        NSFileManager* fileManager = [NSFileManager defaultManager];
-        
-        NSString* folder = self.fileLogger.logFileManager.logsDirectory;
-        
-        DDLogInfo(@"folder = %@", folder);
-        NSArray* files = [fileManager contentsOfDirectoryAtPath:folder error:nil];
-        
-        for (int i=0; i<[files count]; i++)
-        {
-            NSString* fileName = files[i];
-            
-            NSURL* url = [NSURL fileURLWithPathComponents:@[folder, fileName]];
-            
-            NSError *theError = nil;
-            NSString* contents = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&theError];
-            
-            NSString* key = url.path.lastPathComponent;
-            
-            if (!theError && contents != nil && key != nil)
-                [dict setObject:contents forKey:key];
-            
-        }
-            
-    }
-    @catch (NSException*) { }
-    
-    return dict;
 }
 
 
