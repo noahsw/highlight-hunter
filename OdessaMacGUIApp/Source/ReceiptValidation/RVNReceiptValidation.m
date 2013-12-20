@@ -39,11 +39,11 @@
 
 #ifdef APPSTORE_PREMIUM
 static NSString *kRVNBundleID = @"com.authenticallydigital.highlighthunter.osx.premium";
-static NSString *kRVNBundleVersion = @"2.2"; // must match version exactly in iTunes Connect and Bundle versions string, short
+static NSString *kRVNBundleVersion = @"2.3"; // must match version exactly in iTunes Connect and Bundle versions string, short
 #endif
 #ifdef APPSTORE_FREE
 static NSString *kRVNBundleID = @"com.authenticallydigital.highlighthunter.osx.free";
-static NSString *kRVNBundleVersion = @"2.2.1"; // must match version exactly in iTunes Connect and Bundle versions string, short
+static NSString *kRVNBundleVersion = @"2.3"; // must match version exactly in iTunes Connect and Bundle versions string, short
 #endif
 
 typedef struct {
