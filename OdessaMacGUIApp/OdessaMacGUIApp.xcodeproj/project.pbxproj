@@ -18,10 +18,6 @@
 		CE182ECB15E7E6BB00E0DD82 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE182EC215E7E34D00E0DD82 /* IOKit.framework */; };
 		CE225A0F15CEFD760053CA38 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CE225A0D15CEFD760053CA38 /* icon.icns */; };
 		CE225A1015CEFD760053CA38 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CE225A0D15CEFD760053CA38 /* icon.icns */; };
-		CE2C9C4E161F98CA0000159E /* FeedbackReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2C9C4D161F98CA0000159E /* FeedbackReporter.framework */; };
-		CE2C9C4F161F99940000159E /* FeedbackReporter.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = CE2C9C4D161F98CA0000159E /* FeedbackReporter.framework */; };
-		CE2C9C56161FA3500000159E /* FeedbackReporter.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = CE2C9C4D161F98CA0000159E /* FeedbackReporter.framework */; };
-		CE2C9C57161FA39F0000159E /* FeedbackReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2C9C4D161F98CA0000159E /* FeedbackReporter.framework */; };
 		CE2C9C59161FA8500000159E /* ASIHTTPRequest.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = CEFCE08D1619222E003EA03D /* ASIHTTPRequest.framework */; };
 		CE2C9C5A161FA8560000159E /* ASIHTTPRequest.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = CEFCE08D1619222E003EA03D /* ASIHTTPRequest.framework */; };
 		CE2E1A46160A39AB0005267D /* mediainfo in Resources */ = {isa = PBXBuildFile; fileRef = CE2E1A44160A39AB0005267D /* mediainfo */; };
@@ -111,10 +107,6 @@
 		CE4E8BC0162776BA00C6054E /* UpdateCheckerWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = CE701E6614A00B0400C888D1 /* UpdateCheckerWorker.h */; };
 		CE4E8BC1162776CE00C6054E /* UpdateChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701E6514A00B0400C888D1 /* UpdateChecker.m */; };
 		CE4E8BC2162776CE00C6054E /* UpdateCheckerWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701E6714A00B0400C888D1 /* UpdateCheckerWorker.m */; };
-		CE4E8BC516278BD900C6054E /* AppStoreRating.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4E8BC316278BD900C6054E /* AppStoreRating.h */; };
-		CE4E8BC616278BD900C6054E /* AppStoreRating.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4E8BC316278BD900C6054E /* AppStoreRating.h */; };
-		CE4E8BC816278BD900C6054E /* AppStoreRating.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E8BC416278BD900C6054E /* AppStoreRating.m */; };
-		CE4E8BC916278BD900C6054E /* AppStoreRating.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E8BC416278BD900C6054E /* AppStoreRating.m */; };
 		CE4E8BD0162CC55700C6054E /* ffmpeg.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = CE4E8BCE162CC55700C6054E /* ffmpeg.entitlements */; };
 		CE4E8BD1162CC55700C6054E /* ffmpeg.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = CE4E8BCE162CC55700C6054E /* ffmpeg.entitlements */; };
 		CE4E8BD5162CC8BD00C6054E /* mediainfo.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = CE4E8BD3162CC8BD00C6054E /* mediainfo.entitlements */; };
@@ -903,7 +895,6 @@
 				CE4D99D01609097600739B1E /* PhFacebook.framework in Copy Frameworks */,
 				CE571F0016099DDA00491E67 /* SBJson.framework in Copy Frameworks */,
 				CE2C9C5A161FA8560000159E /* ASIHTTPRequest.framework in Copy Frameworks */,
-				CE2C9C4F161F99940000159E /* FeedbackReporter.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -920,7 +911,6 @@
 				CE4D99D11609099B00739B1E /* PhFacebook.framework in Copy Frameworks */,
 				CE571F0116099E1500491E67 /* SBJson.framework in Copy Frameworks */,
 				CE2C9C59161FA8500000159E /* ASIHTTPRequest.framework in Copy Frameworks */,
-				CE2C9C56161FA3500000159E /* FeedbackReporter.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -964,7 +954,6 @@
 		CE182EC415E7E5AF00E0DD82 /* RVNReceiptValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVNReceiptValidation.h; sourceTree = "<group>"; };
 		CE182EC515E7E5AF00E0DD82 /* RVNReceiptValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVNReceiptValidation.m; sourceTree = "<group>"; };
 		CE225A0D15CEFD760053CA38 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = Resources/MacOS/icon.icns; sourceTree = SOURCE_ROOT; };
-		CE2C9C4D161F98CA0000159E /* FeedbackReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FeedbackReporter.framework; path = "tcurdt-feedbackreporter/Build/Release/FeedbackReporter.framework"; sourceTree = "<group>"; };
 		CE2E1A44160A39AB0005267D /* mediainfo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mediainfo; sourceTree = "<group>"; };
 		CE2E1A60160A87A40005267D /* NoHighlightsCollectionViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoHighlightsCollectionViewItem.h; sourceTree = "<group>"; };
 		CE2E1A61160A87A40005267D /* NoHighlightsCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoHighlightsCollectionViewItem.m; sourceTree = "<group>"; };
@@ -1004,8 +993,6 @@
 		CE4D99691607E17E00739B1E /* InputFilesCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputFilesCollectionView.m; sourceTree = "<group>"; };
 		CE4D997D1607EE2F00739B1E /* SmallDropHereDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallDropHereDelegate.h; sourceTree = "<group>"; };
 		CE4D99C4160908B900739B1E /* PhFacebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PhFacebook.xcodeproj; sourceTree = "<group>"; };
-		CE4E8BC316278BD900C6054E /* AppStoreRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStoreRating.h; sourceTree = "<group>"; };
-		CE4E8BC416278BD900C6054E /* AppStoreRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStoreRating.m; sourceTree = "<group>"; };
 		CE4E8BCE162CC55700C6054E /* ffmpeg.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ffmpeg.entitlements; sourceTree = "<group>"; };
 		CE4E8BD3162CC8BD00C6054E /* mediainfo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mediainfo.entitlements; sourceTree = "<group>"; };
 		CE4E8BD9162CCE1C00C6054E /* codesign-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "codesign-frameworks.sh"; sourceTree = "<group>"; };
@@ -1376,7 +1363,6 @@
 			files = (
 				CE3FB13E16390CA70014F82D /* CoreMedia.framework in Frameworks */,
 				CE3FB13C163909490014F82D /* AVFoundation.framework in Frameworks */,
-				CE2C9C4E161F98CA0000159E /* FeedbackReporter.framework in Frameworks */,
 				CE9FD7D315EDA4B800D458BC /* QTKit.framework in Frameworks */,
 				CE182EC315E7E34D00E0DD82 /* IOKit.framework in Frameworks */,
 				CE182EC115E7E33E00E0DD82 /* Security.framework in Frameworks */,
@@ -1403,7 +1389,6 @@
 				CEFCE0B816192315003EA03D /* ASIHTTPRequest.framework in Frameworks */,
 				CEF8C61E153E350900F4E55A /* Cocoa.framework in Frameworks */,
 				CE571EF61609693700491E67 /* SBJson.framework in Frameworks */,
-				CE2C9C57161FA39F0000159E /* FeedbackReporter.framework in Frameworks */,
 				CED45BE01540E4B4002D21C0 /* libavcodec.dylib in Frameworks */,
 				CED45BE21540E4B4002D21C0 /* libavformat.dylib in Frameworks */,
 				CED45BE41540E4B4002D21C0 /* libavutil.dylib in Frameworks */,
@@ -1769,8 +1754,6 @@
 				CE571EFA160996DF00491E67 /* JFUrlUtil.m */,
 				CE9FD92615EEE02F00D458BC /* NSURL+Helpers.h */,
 				CE9FD92715EEE03300D458BC /* NSURL+Helpers.m */,
-				CE4E8BC316278BD900C6054E /* AppStoreRating.h */,
-				CE4E8BC416278BD900C6054E /* AppStoreRating.m */,
 			);
 			path = OtherHelpers;
 			sourceTree = "<group>";
@@ -2223,7 +2206,6 @@
 			children = (
 				CE3FB13D16390CA70014F82D /* CoreMedia.framework */,
 				CE3FB13A163907ED0014F82D /* AVFoundation.framework */,
-				CE2C9C4D161F98CA0000159E /* FeedbackReporter.framework */,
 				CEF8C568153E319C00F4E55A /* AppKit.framework */,
 				CEF8C56A153E319C00F4E55A /* Foundation.framework */,
 				CE182EC215E7E34D00E0DD82 /* IOKit.framework */,
@@ -2395,7 +2377,6 @@
 				CEFCE019161501FC003EA03D /* PublishButtonDelegate.h in Headers */,
 				CEFCE0BF161A641C003EA03D /* ExportWorker.h in Headers */,
 				CEFCE0C6161A64C2003EA03D /* FinalCutProXExportWorker.h in Headers */,
-				CE4E8BC516278BD900C6054E /* AppStoreRating.h in Headers */,
 				CE9B849B168E4ABC007AFBF3 /* TutorialBubbleController.h in Headers */,
 				CED277CB1691019400FC84A7 /* TutorialHelper.h in Headers */,
 				CED277D61693D5C500FC84A7 /* ShareButtonTutorialDelegate.h in Headers */,
@@ -2548,7 +2529,6 @@
 				CEFCE01A161501FC003EA03D /* PublishButtonDelegate.h in Headers */,
 				CEFCE0C0161A641C003EA03D /* ExportWorker.h in Headers */,
 				CEFCE0C7161A64C2003EA03D /* FinalCutProXExportWorker.h in Headers */,
-				CE4E8BC616278BD900C6054E /* AppStoreRating.h in Headers */,
 				CE9B849C168E4ABC007AFBF3 /* TutorialBubbleController.h in Headers */,
 				CED277CC1691019400FC84A7 /* TutorialHelper.h in Headers */,
 				CED277D71693D5C500FC84A7 /* ShareButtonTutorialDelegate.h in Headers */,
@@ -3178,7 +3158,6 @@
 				CEFCE01716150120003EA03D /* PublishButtonView.m in Sources */,
 				CEFCE0C3161A641C003EA03D /* ExportWorker.m in Sources */,
 				CEFCE0CA161A64C2003EA03D /* FinalCutProXExportWorker.m in Sources */,
-				CE4E8BC916278BD900C6054E /* AppStoreRating.m in Sources */,
 				CE9B849F168E4ABC007AFBF3 /* TutorialBubbleController.m in Sources */,
 				CED277CF1691019400FC84A7 /* TutorialHelper.m in Sources */,
 				CEC0D9961698AA1200BCCD6D /* TutorialEscapeHatchViewController.m in Sources */,
@@ -3276,7 +3255,6 @@
 				CEFCE01616150120003EA03D /* PublishButtonView.m in Sources */,
 				CEFCE0C2161A641C003EA03D /* ExportWorker.m in Sources */,
 				CEFCE0C9161A64C2003EA03D /* FinalCutProXExportWorker.m in Sources */,
-				CE4E8BC816278BD900C6054E /* AppStoreRating.m in Sources */,
 				CE9B849E168E4ABC007AFBF3 /* TutorialBubbleController.m in Sources */,
 				CED277CE1691019400FC84A7 /* TutorialHelper.m in Sources */,
 				CEC0D9951698AA1200BCCD6D /* TutorialEscapeHatchViewController.m in Sources */,
@@ -3329,7 +3307,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DEPLOYMENT_POSTPROCESSING = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/tcurdt-feedbackreporter/Build/Release\"";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3378,7 +3356,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/tcurdt-feedbackreporter/Build/Release\"";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;

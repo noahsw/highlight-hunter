@@ -39,15 +39,13 @@
 
 #include <stdlib.h> // for random numbers
 
-#import <FeedbackReporter/FRFeedbackReporter.h>
-
 #import <Foundation/Foundation.h>
 
 #import "TutorialHelper.h"
 #import "TutorialEscapeHatchViewController.h"
 #import "TutorialEscapeHatchDelegate.h"
 
-@interface AppController : NSObject <NSApplicationDelegate, FRFeedbackReporterDelegate, SelectInputVideosDelegate, ScanVideosDelegate, ReviewHighlightsDelegate, TutorialEscapeHatchDelegate> {
+@interface AppController : NSObject <NSApplicationDelegate, SelectInputVideosDelegate, ScanVideosDelegate, ReviewHighlightsDelegate, TutorialEscapeHatchDelegate> {
 }
 
 
@@ -95,7 +93,6 @@
 - (IBAction)upgradeToPro:(id)sender;
 - (IBAction)showActivateWindow:(id)sender;
 - (IBAction)showTutorialWindow:(id)sender;
-- (IBAction)sendFeedback:(id)sender;
 
 - (IBAction)shareTwitterButtonPressed:(id)sender;
 - (IBAction)shareFacebookButtonPressed:(id)sender;

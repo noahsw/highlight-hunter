@@ -194,9 +194,6 @@
         
         [self.publishWorker viewResult];
         
-        [AppStoreRating handleAppStoreRatingPrompt:self.window];
-        
-
     }
     
 }

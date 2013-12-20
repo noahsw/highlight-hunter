@@ -20,7 +20,6 @@
 #import "PublishButtonDelegate.h"
 #import "PublishButtonView.h"
 #import "HoverButton.h"
-#import "AppStoreRating.h"
 #import "TutorialHelper.h"
 #import "ShareButtonTutorialDelegate.h"
 

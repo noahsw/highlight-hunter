@@ -15,7 +15,6 @@
 #import "HighlightDelegate.h"
 #import "IconButton.h"
 #import "FacebookShareWorker.h"
-#import "AppStoreRating.h"
 
 @interface PublishStatusViewItem : AMCollectionViewItem <WorkerProgressDelegate> {
 }

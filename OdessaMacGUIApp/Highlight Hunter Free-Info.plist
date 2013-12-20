@@ -17,22 +17,20 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.2.1</string>
+	<string>2.3</string>
 	<key>CFBundleSignature</key>
 	<string>odsa</string>
 	<key>CFBundleVersion</key>
 	<string>1245</string>
-	<key>FRFeedbackReporter.targetURL</key>
-	<string>http://www.highlighthunter.com/exception-report.php</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.video</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012 Authentically Digital LLC. All rights reserved. Patents pending.</string>
+	<string>Copyright © 2013 Authentically Digital LLC. All rights reserved. Patents pending.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
-	<string>FRExceptionReportingApplication</string>
+	<string>NSApplication</string>
 </dict>
 </plist>
