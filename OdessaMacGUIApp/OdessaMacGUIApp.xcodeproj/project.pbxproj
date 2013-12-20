@@ -107,10 +107,6 @@
 		CE4E8BC0162776BA00C6054E /* UpdateCheckerWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = CE701E6614A00B0400C888D1 /* UpdateCheckerWorker.h */; };
 		CE4E8BC1162776CE00C6054E /* UpdateChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701E6514A00B0400C888D1 /* UpdateChecker.m */; };
 		CE4E8BC2162776CE00C6054E /* UpdateCheckerWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701E6714A00B0400C888D1 /* UpdateCheckerWorker.m */; };
-		CE4E8BC516278BD900C6054E /* AppStoreRating.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4E8BC316278BD900C6054E /* AppStoreRating.h */; };
-		CE4E8BC616278BD900C6054E /* AppStoreRating.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4E8BC316278BD900C6054E /* AppStoreRating.h */; };
-		CE4E8BC816278BD900C6054E /* AppStoreRating.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E8BC416278BD900C6054E /* AppStoreRating.m */; };
-		CE4E8BC916278BD900C6054E /* AppStoreRating.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E8BC416278BD900C6054E /* AppStoreRating.m */; };
 		CE4E8BD0162CC55700C6054E /* ffmpeg.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = CE4E8BCE162CC55700C6054E /* ffmpeg.entitlements */; };
 		CE4E8BD1162CC55700C6054E /* ffmpeg.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = CE4E8BCE162CC55700C6054E /* ffmpeg.entitlements */; };
 		CE4E8BD5162CC8BD00C6054E /* mediainfo.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = CE4E8BD3162CC8BD00C6054E /* mediainfo.entitlements */; };
@@ -997,8 +993,6 @@
 		CE4D99691607E17E00739B1E /* InputFilesCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputFilesCollectionView.m; sourceTree = "<group>"; };
 		CE4D997D1607EE2F00739B1E /* SmallDropHereDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallDropHereDelegate.h; sourceTree = "<group>"; };
 		CE4D99C4160908B900739B1E /* PhFacebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PhFacebook.xcodeproj; sourceTree = "<group>"; };
-		CE4E8BC316278BD900C6054E /* AppStoreRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStoreRating.h; sourceTree = "<group>"; };
-		CE4E8BC416278BD900C6054E /* AppStoreRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStoreRating.m; sourceTree = "<group>"; };
 		CE4E8BCE162CC55700C6054E /* ffmpeg.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ffmpeg.entitlements; sourceTree = "<group>"; };
 		CE4E8BD3162CC8BD00C6054E /* mediainfo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mediainfo.entitlements; sourceTree = "<group>"; };
 		CE4E8BD9162CCE1C00C6054E /* codesign-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "codesign-frameworks.sh"; sourceTree = "<group>"; };
@@ -1760,8 +1754,6 @@
 				CE571EFA160996DF00491E67 /* JFUrlUtil.m */,
 				CE9FD92615EEE02F00D458BC /* NSURL+Helpers.h */,
 				CE9FD92715EEE03300D458BC /* NSURL+Helpers.m */,
-				CE4E8BC316278BD900C6054E /* AppStoreRating.h */,
-				CE4E8BC416278BD900C6054E /* AppStoreRating.m */,
 			);
 			path = OtherHelpers;
 			sourceTree = "<group>";
@@ -2385,7 +2377,6 @@
 				CEFCE019161501FC003EA03D /* PublishButtonDelegate.h in Headers */,
 				CEFCE0BF161A641C003EA03D /* ExportWorker.h in Headers */,
 				CEFCE0C6161A64C2003EA03D /* FinalCutProXExportWorker.h in Headers */,
-				CE4E8BC516278BD900C6054E /* AppStoreRating.h in Headers */,
 				CE9B849B168E4ABC007AFBF3 /* TutorialBubbleController.h in Headers */,
 				CED277CB1691019400FC84A7 /* TutorialHelper.h in Headers */,
 				CED277D61693D5C500FC84A7 /* ShareButtonTutorialDelegate.h in Headers */,
@@ -2538,7 +2529,6 @@
 				CEFCE01A161501FC003EA03D /* PublishButtonDelegate.h in Headers */,
 				CEFCE0C0161A641C003EA03D /* ExportWorker.h in Headers */,
 				CEFCE0C7161A64C2003EA03D /* FinalCutProXExportWorker.h in Headers */,
-				CE4E8BC616278BD900C6054E /* AppStoreRating.h in Headers */,
 				CE9B849C168E4ABC007AFBF3 /* TutorialBubbleController.h in Headers */,
 				CED277CC1691019400FC84A7 /* TutorialHelper.h in Headers */,
 				CED277D71693D5C500FC84A7 /* ShareButtonTutorialDelegate.h in Headers */,
@@ -3168,7 +3158,6 @@
 				CEFCE01716150120003EA03D /* PublishButtonView.m in Sources */,
 				CEFCE0C3161A641C003EA03D /* ExportWorker.m in Sources */,
 				CEFCE0CA161A64C2003EA03D /* FinalCutProXExportWorker.m in Sources */,
-				CE4E8BC916278BD900C6054E /* AppStoreRating.m in Sources */,
 				CE9B849F168E4ABC007AFBF3 /* TutorialBubbleController.m in Sources */,
 				CED277CF1691019400FC84A7 /* TutorialHelper.m in Sources */,
 				CEC0D9961698AA1200BCCD6D /* TutorialEscapeHatchViewController.m in Sources */,
@@ -3266,7 +3255,6 @@
 				CEFCE01616150120003EA03D /* PublishButtonView.m in Sources */,
 				CEFCE0C2161A641C003EA03D /* ExportWorker.m in Sources */,
 				CEFCE0C9161A64C2003EA03D /* FinalCutProXExportWorker.m in Sources */,
-				CE4E8BC816278BD900C6054E /* AppStoreRating.m in Sources */,
 				CE9B849E168E4ABC007AFBF3 /* TutorialBubbleController.m in Sources */,
 				CED277CE1691019400FC84A7 /* TutorialHelper.m in Sources */,
 				CEC0D9951698AA1200BCCD6D /* TutorialEscapeHatchViewController.m in Sources */,
