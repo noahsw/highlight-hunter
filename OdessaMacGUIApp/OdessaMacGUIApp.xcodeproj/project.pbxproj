@@ -995,7 +995,6 @@
 		CE4D99C4160908B900739B1E /* PhFacebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PhFacebook.xcodeproj; sourceTree = "<group>"; };
 		CE4E8BCE162CC55700C6054E /* ffmpeg.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ffmpeg.entitlements; sourceTree = "<group>"; };
 		CE4E8BD3162CC8BD00C6054E /* mediainfo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mediainfo.entitlements; sourceTree = "<group>"; };
-		CE4E8BD9162CCE1C00C6054E /* codesign-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "codesign-frameworks.sh"; sourceTree = "<group>"; };
 		CE571EE21609686A00491E67 /* SBJson.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SBJson.xcodeproj; sourceTree = "<group>"; };
 		CE571EF9160996DF00491E67 /* JFUrlUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFUrlUtil.h; sourceTree = "<group>"; };
 		CE571EFA160996DF00491E67 /* JFUrlUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFUrlUtil.m; sourceTree = "<group>"; };
@@ -1596,7 +1595,6 @@
 		8F614094142530CC002C52F4 = {
 			isa = PBXGroup;
 			children = (
-				CE4E8BD9162CCE1C00C6054E /* codesign-frameworks.sh */,
 				CED45B791540E4B4002D21C0 /* ffmpeg */,
 				CE4E8BCE162CC55700C6054E /* ffmpeg.entitlements */,
 				8F6140A2142530CD002C52F4 /* Frameworks */,
@@ -2551,7 +2549,6 @@
 				CE182ECD15E7E8BC00E0DD82 /* Increment build number */,
 				CED45C551541210F002D21C0 /* Resources */,
 				CED45C731541210F002D21C0 /* Copy Frameworks */,
-				CE4E8BD8162CCCDD00C6054E /* Code sign embedded frameworks */,
 			);
 			buildRules = (
 			);
@@ -2572,7 +2569,6 @@
 				CE182ECC15E7E86400E0DD82 /* Increment build number */,
 				CEF8C621153E350900F4E55A /* Resources */,
 				CEF8C641153E350900F4E55A /* Copy Frameworks */,
-				CE4E8BDA162CD8F400C6054E /* Code sign embedded frameworks */,
 			);
 			buildRules = (
 			);
@@ -3036,34 +3032,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n# Disabled now that we're open source as it causes annoying merge conflicts\n# /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
-		};
-		CE4E8BD8162CCCDD00C6054E /* Code sign embedded frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Code sign embedded frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh ./codesign-frameworks.sh";
-		};
-		CE4E8BDA162CD8F400C6054E /* Code sign embedded frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Code sign embedded frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh ./codesign-frameworks.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
