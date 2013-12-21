@@ -4,7 +4,7 @@ Highlight Hunter is an app for Mac and PC that helps you quickly find the highli
 
 
 ## Running on Mac
-1. Download [Highlight Hunter Pro 2.3.zip](noahsw/highlight-hunter/blob/master/OdessaMacGUIApp/Distributions/Highlight%20Hunter%20Pro%202.3.zip) and unzip
+1. Download `[Highlight Hunter Pro 2.3.zip](Highlight%20Hunter%20Pro%202.3.zip)` and unzip
 2. Drag `Highlight Hunter Pro.app` to your `Applications` folder
 3. Run like a normal app
 
